@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FEWD on Code in One Day: HTML &amp; CSS Crash Course</title>
+    <link>/</link>
+    <description>Recent content in FEWD on Code in One Day: HTML &amp; CSS Crash Course</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Mar 2019 19:57:51 -0400</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Objectives</title>
+      <link>/00-course-intro-and-tools/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/00-course-intro-and-tools/objectives/</guid>
+      <description> Understand how web pages are structured
+ Introduce some of the most frequently used html tags
+  </description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>/05-css-box-model/agenda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-css-box-model/agenda/</guid>
+      <description> Discuss how CSS Cascades
+ Box Model
+ Code Along: Tags &amp;amp; Boxes
+ Code Along: Notifications
+  </description>
+    </item>
+    
+    <item>
+      <title>Margin</title>
+      <link>/05-css-box-model/box-model-overview/margin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-css-box-model/box-model-overview/margin/</guid>
+      <description>Margin  Margin represents the space between boxes  .thing { /* margin can be applied to individual sides of a box using margin-top, margin-bottom, margin-left or margin-right */ /* style below applies 20px to left side of box */ margin-left: 20px; } .other-thing { /* style below applies 10px to all four sides of box */ margin: 10px; } .gizmo { /* when 4 values are provided, then values are applied in a clockwork manner: margin: [top] [right] [bottom] [left]; */ /* style below applies 4px to top, 10px to right, 6px to bottom &amp;amp; 10px to left */ margin: 4px 10px 6px 10px; } .</description>
+    </item>
+    
+    <item>
+      <title>HTML Structure</title>
+      <link>/01-html-basics/html-structure/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/01-html-basics/html-structure/</guid>
+      <description> Front page of a newspaper
+ Which elements stand out and why?
+ What would happen if every word was the same size font?
+  Document in a word processor
+HTML document
+Summary  Structure helps readers better understand all forms of documents
+ Documents leverage hierarchy, size and font weight to emphasize importance
+ HTML pages are another type documents
+  </description>
+    </item>
+    
+    <item>
+      <title>Last Rule</title>
+      <link>/04-css-cascading-guidelines/last-rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-css-cascading-guidelines/last-rule/</guid>
+      <description>Last Rule  When two or more css rules have identical selectors, the latter of the two rules takes precedent
+ // in css p { color: red; } p { color: green; }  &amp;lt;!-- in html --&amp;gt; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt; Color will be green&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   Here the &amp;lt;p&amp;gt; tag will be green because the last conflicting rule took precedent</description>
+    </item>
+    
+    <item>
+      <title>Padding</title>
+      <link>/05-css-box-model/box-model-overview/padding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-css-box-model/box-model-overview/padding/</guid>
+      <description>Padding  Padding is the space between the border of a box and any content contained within it
+ Adding padding helps to increase readability of a box’s content
+  .thing { /* padding can be applied to individual sides of a box using padding-top, padding-bottom, padding-left or padding-right */ /* style below applies 20px to left side of box */ padding-left: 20px; } .other-thing { /* style below applies 10px to all four sides of box */ padding: 10px; } .</description>
+    </item>
+    
+    <item>
+      <title>HTML Tag Anatomy</title>
+      <link>/01-html-basics/html-tag-anatomy/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/01-html-basics/html-tag-anatomy/</guid>
+      <description>What is a Tag?  Tags act like containers, they tell the browser what type of information lies between (aka the content) the opening and closing tag
+ Opening Tag
+ comprised of character(s) surrounded by less than and equal than signs (brackets) characters within the brackets indicates the tags purpose  Closing Tag
+ Same as opening tag except closing tag contains a forward slash which informs browser that element has ended   Terms “tags” and “elements” are often used interchangeably</description>
+    </item>
+    
+    <item>
+      <title>Block and Inline Elements</title>
+      <link>/05-css-box-model/block-inline-elements/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/05-css-box-model/block-inline-elements/</guid>
+      <description>Block Level Elements  Always appear on a new line or row
+ By default, block elements take up an entire row regardless of the width of their content
+ Example block elements: &amp;lt;p&amp;gt;, &amp;lt;h1&amp;gt;, &amp;lt;div&amp;gt;
+  JS Bin on jsbin.com
+Full list of block level elements can be found here
+ Inline Elements  Sit within a block level element and do not start on a new line</description>
+    </item>
+    
+    <item>
+      <title>HTML Attributes</title>
+      <link>/01-html-basics/html-attributes/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/01-html-basics/html-attributes/</guid>
+      <description>What is an HTML Attribute?  Attributes provide additional information about the contents of the an element.
+ They are placed in the opening tag
+ They have two parts: name, value
+  Attribute Structure  Attribute Name
+ Indicates what kind of extra information you are supplying to the browser about the content in the element characters within the brackets indicates the tags purpose  Attribute Value</description>
+    </item>
+    
+    <item>
+      <title>Border</title>
+      <link>/05-css-box-model/box-model-overview/border/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-css-box-model/box-model-overview/border/</guid>
+      <description>Border  Every box has a border, and by default it is invisible (0 pixels wide)
+ Borders separates the edge of one box from another
+ Border is expressed in three parts
+ Border width: how thick the border will be
+ Border style: solid, dashed, etc
+ Border color: color of the border
+   /* border is most usually expressed using shorthand which allows you to specify a combination of the border 3 properties when using shorthand for border the order of the values does not matter */ /* style */ border: solid; /* width | style */ border: 2px dotted; /* style | color */ border: outset #f33; /* width | style | color */ border: medium dashed green; /* Border can be applied to individual sides of a box using border-top, border-bottom, border-left or border-right */ border-top: solid 1px blue; /* Also you can specify the border properties individually (this approach is not widely used) */ border-color: red; border-style: solid; border-width: 1px; border-top-color: blue; border-bottom-width: 3px; JS Bin on jsbin.</description>
+    </item>
+    
+    <item>
+      <title>Color Names</title>
+      <link>/06-css-colors/css-colors/color-names/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-css-colors/css-colors/color-names/</guid>
+      <description> Color Names  colors represented by predefined names 147 color names this approach is limited
+h1 { color: green; }   </description>
+    </item>
+    
+    <item>
+      <title>Documentation</title>
+      <link>/class-resources/documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/documentation/</guid>
+      <description>Referencing documentation is a core task for developers.
+ Documentation communicates how something (in our case programming languages, software libraries) works.
+ Good documentation reduces implementation time and increases predictability of our software programs.
+  We will be referring to the following list of the documentation resources frequently throughout the course:
+HTML MDN&amp;rsquo;s HTML Reference
+CSS MDN&amp;rsquo;s CSS Reference
+Javascript MDN&amp;rsquo;s Javascript Reference
+jQuery jQuery Documentation</description>
+    </item>
+    
+    <item>
+      <title>Specificity</title>
+      <link>/04-css-cascading-guidelines/specificity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-css-cascading-guidelines/specificity/</guid>
+      <description>Specificity  If one selector is more specific than others, then the more specific rule takes precedent
+ For example:
+ h1 is more specific than * p.discount is more specific than p #city is more specific than img.town   Live Example
+JS Bin on jsbin.com
+In the example above #featured is more specific than .box so the background-color of the element will be red even though .box is listed after #featured</description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>/03-css-selectors/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/03-css-selectors/agenda/</guid>
+      <description> Classes and IDs
+ CSS Selectors Overview &amp;amp; Examples
+ Exercise: CSS Diner
+  </description>
+    </item>
+    
+    <item>
+      <title>!important</title>
+      <link>/04-css-cascading-guidelines/important/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-css-cascading-guidelines/important/</guid>
+      <description>!important  You can override all the above rules by adding a “!important” after any property
+ This should be used sparingly; excessive use of !important can cause confusion within your codebase
+// in css #thing { color: green; } // add the !important option at the end of your declaration; p { color: red !important; }  &amp;lt;!-- in html --&amp;gt; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p id=&amp;quot;thing&amp;quot;&amp;gt;Will be RED and NOT Green&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   Here we used the !</description>
+    </item>
+    
+    <item>
+      <title>Thinking in Boxes</title>
+      <link>/05-css-box-model/thinking-in-boxes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-css-box-model/thinking-in-boxes/</guid>
+      <description>Understanding the CSS Box Model is key to understanding how CSS works
+ Going forward, you should view every element as a box (because that&amp;rsquo;s how browsers view them)
+   Block elements in the image are outlined in red, while inline elements are outlined in green
+ Every element is a box, some boxes contain other boxes &amp;lt;body&amp;gt;, &amp;lt;div&amp;gt; or &amp;lt;article&amp;gt;
+ CSS allows you to create rules the control each individual box</description>
+    </item>
+    
+    <item>
+      <title>Intro to CSS</title>
+      <link>/02-css-basics/css-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-css-basics/css-intro/</guid>
+      <description>What is CSS?  Stands for Cascading Style Sheet
+ Allows you to control design of page
+ With CSS allows you to create rules that specify how the content of an element should appear
+p { color: gray; }   Applying the CSS rule above will result in text color of all &amp;lt;p&amp;gt; tags being changed to gray.
+Anatomy of a CSS Rule  CSS works by associating rules with HTML elements.</description>
+    </item>
+    
+    <item>
+      <title>Adding CSS to your website</title>
+      <link>/02-css-basics/adding-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-css-basics/adding-css/</guid>
+      <description>There are three ways to add css to your site  1) Inline (avoid!)
+ 2) Internal css using &amp;lt;style&amp;gt; tag (avoid!)
+ 3) External file (best practice)
+  Inline CSS (avoid!)  This method involves adding styles directly to html elements using a style attribute
+ &amp;lt;body style=&amp;quot;background-color: orange;&amp;quot;&amp;gt; &amp;lt;!-- other tags redacted for example --&amp;gt; &amp;lt;/body&amp;gt;   Internal CSS (avoid!)  This method involves adding styles directly to html elements using a &amp;lt;style&amp;gt; tag</description>
+    </item>
+    
+    <item>
+      <title>Classes and Ids</title>
+      <link>/03-css-selectors/classes-and-ids/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-css-selectors/classes-and-ids/</guid>
+      <description>Classes and Ids  Both are just HTML attributes
+ Should start with a letter or underscore
+ Can be applied to any html element
+ Important: Use of the class or id attribute by itself does not change the appearance of an element; CSS/Javascript must be involved
+  Class Attribute  Is used to group elements together, therefore establishing them as different from other elements on the page</description>
+    </item>
+    
+    <item>
+      <title>Inheritance</title>
+      <link>/04-css-cascading-guidelines/inheritance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-css-cascading-guidelines/inheritance/</guid>
+      <description>Inheritance  Certain CSS properties such as font-family, font-size, color will be inherited by child properties
+ However, properties such as background color or border properties are not inherited
+ Click here to see a full list inherited and non-inherited CSS properties
+  Live Example
+JS Bin on jsbin.com
+In the example, the p element will automatically inherit the font color property from its ancestor (body) since color is a css property that can be inherited.</description>
+    </item>
+    
+    <item>
+      <title>Body, Head &amp; Title</title>
+      <link>/01-html-basics/tag-overview/body-head-title/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/body-head-title/</guid>
+      <description>&amp;lt;html&amp;gt;, &amp;lt;body&amp;gt;, &amp;lt;head&amp;gt;, &amp;lt;title&amp;gt; The following tags make up the structure of all web pages
+ &amp;lt;html&amp;gt;
+ Represents the root (top-level element) of an HTML document, so it is also referred to as the root element
+ All other elements must be descendants of this element.
+  &amp;lt;body&amp;gt;
+ Everything inside the body tag is shown inside the browser window  &amp;lt;head&amp;gt;
+ Contains information about the page (vs shown on the pages</description>
+    </item>
+    
+    <item>
+      <title>Keyboard Shortcuts</title>
+      <link>/class-resources/keyboard-shortcuts/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/class-resources/keyboard-shortcuts/</guid>
+      <description>General Window Management &amp;amp; Browser Shortcuts    Action Mac Windows     Open Chrome Developer Tools cmd+option + i F2 or ctrl + shift + i   Refresh page cmd + R ctrl + R   Switch between applications cmd + tab alt + tab   Switch between windows in the same application cmd + ~     Atom Shortcuts Files, Windows, Tabs Management    Command macOS Windows Linux Description     Open Settings Menu cmd+, ctrl+, ctrl+, Opens the Atom&amp;rsquo;s settings menu   Open File (Fuzzy) cmd+p or cmd+t ctrl+p or ctrl+t ctrl+p or ctrl+t Opens the Fuzzy Finder   Browse Open Files cmd+b ctrl+b ctrl+b Browse tabs within the window   Previous Tab alt+cmd+left ctrl+pageup ctrl+pageup Cycles left through open tabs (in the active pane)   Next Tab alt+cmd+right ctrl+pagedown ctrl+pagedown Cycles right through open tabs (in the active page)   Toggle Tree View cmd+\ ctrl+\ ctrl+\ Toggles Atom&amp;rsquo;s file Tree View   Show Available Snippets alt+shift+s alt+shift+s alt+shift+s Shows the snippets available to Atom   Save cmd+s ctrl+s ctrl+s Saves the currently active file   Save As shift+cmd+s ctrl+shift+s ctrl+shift+s Saves the currently active file under a different name   Save All alt+cmd+s   Saves all changed files   Close Tab cmd+w ctrl+w ctrl+w Closes the currently active tab   Close Window shift+cmd+w ctrl+shift+w ctrl+shift+w Closes the currently active editor window   Split Window cmd+k up/down/left/right ctrl+k up/down/left/right ctrl+k up/down/left/right Split the currently active tab in one of the four directions   Focus Pane cmd+k cmd+up/down/left/right ctrl+k ctrl+up/down/left/right ctrl+k ctrl+up/down/left/right Move the focus to the pane in one of the four directions   Toggle full screen ctrl+cmd+f F11 F11 Toggle full screen window    Editing    Command macOS Windows Linux Description     Duplicate Lines shift+cmd+d ctrl+shift+d ctrl+shift+d Duplicates the line of the current cursor position and creates a new line under it with the same contents   Delete Line ctrl+shift+k ctrl+shift+k ctrl+shift+k Deletes the current line   Move Line Up ctrl+cmd+up ctrl+up ctrl+up Moves the contents of the current cursor position up one line.</description>
+    </item>
+    
+    <item>
+      <title>Hex codes</title>
+      <link>/06-css-colors/css-colors/hex-codes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-css-colors/css-colors/hex-codes/</guid>
+      <description> Hex Codes  colors represented by values for red, green and blue in hexadecimal code
+h1 { color: #66cdaa; }   </description>
+    </item>
+    
+    <item>
+      <title>CSS Selectors</title>
+      <link>/03-css-selectors/css-selectors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-css-selectors/css-selectors/</guid>
+      <description>CSS Selectors Overview  Many different types of selectors that allow you to target rules to specific elements in an HTML document
+ Selectors are case sensitive, must match element names and attributes exactly
+     Selector Meaning Example     Universal Selector Applies to all elements *{}   Type Selector Match elements names h1, h2, h3 {}   Class Selector Matches all elements with a class attribute value matching on specified after a period (.</description>
+    </item>
+    
+    <item>
+      <title>CSS Selectors Examples</title>
+      <link>/03-css-selectors/css-selectors-examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-css-selectors/css-selectors-examples/</guid>
+      <description>CSS Selectors Examples Class Selector JS Bin on jsbin.com
+ID Selector JS Bin on jsbin.com
+Child Selector JS Bin on jsbin.com
+Descendent Selector Descendant Selector Example on jsbin.com
+Adjacent Sibling Selector Adjacent Sibling Selector example on jsbin.com
+General Sibling Selector General Sibling Selector Example on jsbin.com
+Pseudo Class Selector JS Bin on jsbin.com
+Pseudo Element Selector JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>Code Along - About Me</title>
+      <link>/02-css-basics/code-along/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-css-basics/code-along/</guid>
+      <description>Code Along: Building an &amp;ldquo;About Me&amp;rdquo; page  As a class, we&amp;rsquo;ll walk through using html and css to build the &amp;ldquo;About Me&amp;rdquo; page depicted in the image below   Using Atom, open the folder called rocket_raccoon_about_me in your lesson_04_files folder. You will be using these files as starting off point.
+ When building websites it is a best practice to have a plan in place before starting out.</description>
+    </item>
+    
+    <item>
+      <title>Code Along - GA Press Release</title>
+      <link>/01-html-basics/code-along/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-html-basics/code-along/</guid>
+      <description> Code Along: GA Press Release  As a class, we&amp;rsquo;ll walk through using html to build out an html version of a press release
+ Using Sublime, open the folder called ga_press_release (found within the starter_code) folder
+  </description>
+    </item>
+    
+    <item>
+      <title>Lab - Portfolio page</title>
+      <link>/02-css-basics/lab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-css-basics/lab/</guid>
+      <description>Lab: Start/Complete Portfolio Page  Individually or in teams to finish the fictional developer&amp;rsquo;s site by building out their portfolio page (depicted in the image below)
+ You will be adding a Portfolio page to your existing rocket_raccoon_about_me project
+ Timebox: 35 mins
+ Before you start building: Draw a wireframe of the layout to help you plan your approach
+ The &amp;ldquo;About Me&amp;rdquo; and &amp;ldquo;Porfolio&amp;rdquo; pages should be linked using a relative url</description>
+    </item>
+    
+    <item>
+      <title>Lab - Cookie Recipe</title>
+      <link>/01-html-basics/lab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-html-basics/lab/</guid>
+      <description> Lab: Cookie Recipe  Work individually or in teams to create an html version of a Cookie recipe depicted in the images below
+ Using Atom, open the folder called cookie_recipe in your lesson_01_files folder. You will be using these files as starting off point.
+ Tips
+ Focus on the content first, then the image then the CSS There will be some items that you will need to look up, CSS is one of them (don&amp;rsquo;t worry we will be going over this in the next class, but part of being a developer is being able to google your way to solutions)   </description>
+    </item>
+    
+    <item>
+      <title>Code Along - Tags and Boxes</title>
+      <link>/05-css-box-model/code-along-tags-and-boxes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-css-box-model/code-along-tags-and-boxes/</guid>
+      <description> Code Along: Tags &amp;amp; Boxes  Using Atom, open the folder called tags_boxes in your lesson_06_files folder. You will be using these files as starting off point.
+ As a class, we&amp;rsquo;ll walk through seeing examples of the box model in action
+  </description>
+    </item>
+    
+    <item>
+      <title>Recommended Atom Editor Settings</title>
+      <link>/class-resources/atom-editor-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/atom-editor-settings/</guid>
+      <description>All of the settings below can be accessed using the following steps:
+ Mac: cmd + , -&amp;gt; Editor PC: ctrl + , -&amp;gt; Editor  Setting indentation levels / default tab-size During our course we will be using a set indentation level of 2 spaces (1 indentation level = 2 spaces). Atom makes it easy conform to this approach by setting our tab to a set level of indentation.</description>
+    </item>
+    
+    <item>
+      <title>RGB</title>
+      <link>/06-css-colors/css-colors/rgb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-css-colors/css-colors/rgb/</guid>
+      <description> RGB  colors represented by values for red, green and blue expressed as numbers between 0 and 255
+h1 { color: rgb(102, 205, 170); }   </description>
+    </item>
+    
+    <item>
+      <title>Code Along - Notifications</title>
+      <link>/05-css-box-model/code-along-notifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-css-box-model/code-along-notifications/</guid>
+      <description> Code Along: Notifications  Using Atom, open the folder called notifications in your lesson_06_files folder. You will be using these files as starting off point.
+ As a class, we&amp;rsquo;ll see examples of using classes and ids to style notifications that are often used to provide contextual information to users within an application
+  </description>
+    </item>
+    
+    <item>
+      <title>Text</title>
+      <link>/01-html-basics/tag-overview/text/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/text/</guid>
+      <description>HTML Headings  Six (6) levels of headings h1 tags is used for main headings h2 tags are used for subheadings Remaining level headings used as needed based on your content hierarchy  Browsers display headings differently, but relative sizes will always be consistent (by default) - i.e. h1 will always be bigger than h2
+ JS Bin on jsbin.com
+Paragraphs  Use &amp;lt;p&amp;gt; element to display paragraphs
+ By default, browser displays each paragraph on a new line</description>
+    </item>
+    
+    <item>
+      <title>RGBa</title>
+      <link>/06-css-colors/css-colors/rgba/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-css-colors/css-colors/rgba/</guid>
+      <description> RGBa  Leverages CSS3 inclusion of the opacity property Just like RGB but allows you to specify the opacity as the fourth value (alpha value) alpha must be a number between 0.0 and 1.0 (0.5 means 50% opacity)
+h1 { color: rgba(102, 205, 170, 0.25); }   </description>
+    </item>
+    
+    <item>
+      <title>Working with Atom Themes</title>
+      <link>/class-resources/atom-themes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/atom-themes/</guid>
+      <description>Changing Themes Atom allows you to easily switch between your installed themes by doing the following:
+ Opening Atom Settings (mac: cmd + , | pc: ctrl + ,) Select Themes in the left-hand menu Select the dropdown menu labeled Syntax Themes Choose one of the installed themes listed in the dropdown menu  Atom comes pre-installed with a set of themes. See that section below to add new themes to Atom</description>
+    </item>
+    
+    <item>
+      <title>What Is front-end Development?</title>
+      <link>/00-course-intro-and-tools/what-is-frontend-development/</link>
+      <pubDate>Sat, 16 Mar 2019 19:57:51 -0400</pubDate>
+      
+      <guid>/00-course-intro-and-tools/what-is-frontend-development/</guid>
+      <description>Overview  Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly.  What are the primary technologies associated with front-end development?  HTML
+ CSS
+ Javascript
+  How is front-end development differ from back-end development?  Backend development, is also known as server-side development and involves storing data on behalf of users or customers</description>
+    </item>
+    
+    <item>
+      <title>Lists</title>
+      <link>/01-html-basics/tag-overview/lists/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/lists/</guid>
+      <description>Lists  3 different types of lists:
+ Unordered - lists start with a bullet point by default Ordered - numbered lists Definition - set of terms along with definition of those terms (not used often)  Both unordered and ordered lists contain list items
+ list items elements are the items within list, they use opening and closing tag
+ list item elements are indented by default
+ list items elements are always a child a list element (in this case the “unordered list” or ul element.</description>
+    </item>
+    
+    <item>
+      <title>HSL</title>
+      <link>/06-css-colors/css-colors/hsl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-css-colors/css-colors/hsl/</guid>
+      <description> HSL  Introduced with CSS3
+ Provides an alternative way to express colors based on:
+ Hue (expressed as an angle between 0 and 360 degrees)
+ Saturation (expressed as a percentage)
+ Lightness (expressed as a percentage 0% =&amp;gt; white, 50% =&amp;gt; normal &amp;amp; 100% =&amp;gt; black)
+body { background-color: hsl(0, 0%, 78%); }    </description>
+    </item>
+    
+    <item>
+      <title>Course Tools</title>
+      <link>/00-course-intro-and-tools/tools/</link>
+      <pubDate>Sat, 16 Mar 2019 10:03:50 -0400</pubDate>
+      
+      <guid>/00-course-intro-and-tools/tools/</guid>
+      <description>Text Editor:
+ Why?: Text editor is a program that developers use to create and edit a range of programming language files. We&amp;rsquo;ll be using Atom, because it&amp;rsquo;s open source (free) and really good.
+ Download Atom
+  Browser:
+ Why?: Google chrome is a robust browser with a variety of tools that are helpful to developers.
+ Install Google Chrome
+  Github:
+ Why?: Github (and Git) are tools/applications used to by developers to manage their code and work collaboratively with each other.</description>
+    </item>
+    
+    <item>
+      <title>HSLa</title>
+      <link>/06-css-colors/css-colors/hsla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-css-colors/css-colors/hsla/</guid>
+      <description> HSLa  Just like HSL but adds the ability to specify opacity using an alpha value
+ alpha must be a number between 0.0 and 1.0 (0.5 means 50% opacity)
+body { background-color: hsla(0, 100%, 75%, 0.5); }   </description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>/01-html-basics/tag-overview/links/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/links/</guid>
+      <description> Links  Links created using the &amp;lt;a&amp;gt; tag
+ link tags use the href attribute (remember attributes come with a name and a value)
+ The value of the href attribute is the location where the link will direct you after it has been clicked
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;!-- contains information about the page --&amp;gt; &amp;lt;title&amp;gt;My page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;a href=&amp;quot;https://www.cnn.com&amp;quot;&amp;gt; CNN &amp;lt;/a&amp;gt; &amp;lt;a href=&amp;quot;/about_us.html&amp;quot;&amp;gt;About Us&amp;lt;/a&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   </description>
+    </item>
+    
+    <item>
+      <title>Images</title>
+      <link>/01-html-basics/tag-overview/images/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/images/</guid>
+      <description>Images  Images are placed in a &amp;lt;img&amp;gt;
+ Empty element meaning there is no closing tag
+ &amp;lt;img src=&amp;quot;images/team_hands&amp;quot; alt=&amp;quot;a group of people touching hands in a star formation&amp;quot; title=&amp;quot;teamwork is awesome&amp;quot;&amp;gt;   Image Attributes  src - Tells browser where to find the image (may relative or absolute path)
+ alt - Provides description of image for people who cannot see the image (accessibility)
+ title - Used to provide additional information about the image.</description>
+    </item>
+    
+    <item>
+      <title>Keys to Success</title>
+      <link>/00-course-intro-and-tools/keys-to-success/</link>
+      <pubDate>Sat, 16 Mar 2019 17:11:17 -0400</pubDate>
+      
+      <guid>/00-course-intro-and-tools/keys-to-success/</guid>
+      <description>Practice, Practice, Practice: More you practice the concepts learned in class, the faster you&amp;rsquo;ll pick them up
+ Don&amp;rsquo;t try to memorize anything: You&amp;rsquo;ll memorize things naturally through the act of doing things over and over again. Besides, if you don&amp;rsquo;t remember something just look it up (i.e. google).
+ Work smarter not harder: In additional to looking things up, developers are really good at referencing past code that they&amp;rsquo;ve used in the past to solve problems they encounter in the present.</description>
+    </item>
+    
+    <item>
+      <title>Tables</title>
+      <link>/01-html-basics/tag-overview/tables/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/tables/</guid>
+      <description>Tables  Tables represent data in a grid format
+ Table Tags
+ &amp;lt;table&amp;gt;: element used to create a table
+ &amp;lt;tr&amp;gt;: table row
+ &amp;lt;td&amp;gt;: table data, represents a cell in the table
+ &amp;lt;th&amp;gt;: table headings used to respresent the header for a column or a row
+   Learn more about tables here
+ ---- Table examples  JS Bin on jsbin.com
+JS Bin on jsbin.</description>
+    </item>
+    
+    <item>
+      <title>Block &amp; Inline Elements</title>
+      <link>/01-html-basics/tag-overview/block-and-inline-elements/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/block-and-inline-elements/</guid>
+      <description>Block Elements  Block elements always appear on a new line in the browser window
+ &amp;lt;h1&amp;gt;, &amp;lt;p&amp;gt;, &amp;lt;ul&amp;gt;, and &amp;lt;li&amp;gt; are examples of block elements
+  JS Bin on jsbin.com
+Inline Elements  Inline elements will always appear to continue on the same line as their neighboring elements
+ &amp;lt;a&amp;gt;, &amp;lt;img&amp;gt;, &amp;lt;b&amp;gt;, and &amp;lt;em&amp;gt; are examples of inline elements
+  JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>Divs &amp; Spans</title>
+      <link>/01-html-basics/tag-overview/divs-spans/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/divs-spans/</guid>
+      <description>Divs  Divs allow you to group a set of elements together in one block-level box  JS Bin on jsbin.com
+ Divs are mainly used to break your content up into logical sections. By doing so, you have more control of the layout and appearance of your pages.  Spans  Spans are the inline equivalent to Divs
+ Spans are used to either:
+ contain a section of text where there is no other suitable element to differentiate it from its surrounding text</description>
+    </item>
+    
+    <item>
+      <title>Other Tags</title>
+      <link>/01-html-basics/tag-overview/other-tags/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/other-tags/</guid>
+      <description>Many more tags There are many other tags available to developers such as:
+ &amp;lt;b&amp;gt; Makes text bold&amp;lt;/b&amp;gt; &amp;lt;i&amp;gt; Italic text &amp;lt;/i&amp;gt; &amp;lt;br/&amp;gt; Used to break text within a paragraph &amp;lt;hr /&amp;gt; Used to add a horizontal line to visually break up text  JS Bin on jsbin.com
+MDN (Mozilla Developer Network) is an excellent resource for all things HTML, CSS and Javascript. For a complete list of all tags avaiable click here</description>
+    </item>
+    
+  </channel>
+</rss>

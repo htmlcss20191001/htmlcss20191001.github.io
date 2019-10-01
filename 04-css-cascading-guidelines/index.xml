@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS Cascading Guidelines on Code in One Day: HTML &amp; CSS Crash Course</title>
+    <link>/04-css-cascading-guidelines/</link>
+    <description>Recent content in CSS Cascading Guidelines on Code in One Day: HTML &amp; CSS Crash Course</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/04-css-cascading-guidelines/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Last Rule</title>
+      <link>/04-css-cascading-guidelines/last-rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-css-cascading-guidelines/last-rule/</guid>
+      <description>Last Rule  When two or more css rules have identical selectors, the latter of the two rules takes precedent
+ // in css p { color: red; } p { color: green; }  &amp;lt;!-- in html --&amp;gt; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt; Color will be green&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   Here the &amp;lt;p&amp;gt; tag will be green because the last conflicting rule took precedent</description>
+    </item>
+    
+    <item>
+      <title>Specificity</title>
+      <link>/04-css-cascading-guidelines/specificity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-css-cascading-guidelines/specificity/</guid>
+      <description>Specificity  If one selector is more specific than others, then the more specific rule takes precedent
+ For example:
+ h1 is more specific than * p.discount is more specific than p #city is more specific than img.town   Live Example
+JS Bin on jsbin.com
+In the example above #featured is more specific than .box so the background-color of the element will be red even though .box is listed after #featured</description>
+    </item>
+    
+    <item>
+      <title>!important</title>
+      <link>/04-css-cascading-guidelines/important/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-css-cascading-guidelines/important/</guid>
+      <description>!important  You can override all the above rules by adding a “!important” after any property
+ This should be used sparingly; excessive use of !important can cause confusion within your codebase
+// in css #thing { color: green; } // add the !important option at the end of your declaration; p { color: red !important; }  &amp;lt;!-- in html --&amp;gt; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p id=&amp;quot;thing&amp;quot;&amp;gt;Will be RED and NOT Green&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   Here we used the !</description>
+    </item>
+    
+    <item>
+      <title>Inheritance</title>
+      <link>/04-css-cascading-guidelines/inheritance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-css-cascading-guidelines/inheritance/</guid>
+      <description>Inheritance  Certain CSS properties such as font-family, font-size, color will be inherited by child properties
+ However, properties such as background color or border properties are not inherited
+ Click here to see a full list inherited and non-inherited CSS properties
+  Live Example
+JS Bin on jsbin.com
+In the example, the p element will automatically inherit the font color property from its ancestor (body) since color is a css property that can be inherited.</description>
+    </item>
+    
+  </channel>
+</rss>

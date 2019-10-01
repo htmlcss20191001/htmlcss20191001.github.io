@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS Selectors on Code in One Day: HTML &amp; CSS Crash Course</title>
+    <link>/03-css-selectors/</link>
+    <description>Recent content in CSS Selectors on Code in One Day: HTML &amp; CSS Crash Course</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:05:18 -0500</lastBuildDate>
+    
+	<atom:link href="/03-css-selectors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Agenda</title>
+      <link>/03-css-selectors/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/03-css-selectors/agenda/</guid>
+      <description> Classes and IDs
+ CSS Selectors Overview &amp;amp; Examples
+ Exercise: CSS Diner
+  </description>
+    </item>
+    
+    <item>
+      <title>Classes and Ids</title>
+      <link>/03-css-selectors/classes-and-ids/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-css-selectors/classes-and-ids/</guid>
+      <description>Classes and Ids  Both are just HTML attributes
+ Should start with a letter or underscore
+ Can be applied to any html element
+ Important: Use of the class or id attribute by itself does not change the appearance of an element; CSS/Javascript must be involved
+  Class Attribute  Is used to group elements together, therefore establishing them as different from other elements on the page</description>
+    </item>
+    
+    <item>
+      <title>CSS Selectors</title>
+      <link>/03-css-selectors/css-selectors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-css-selectors/css-selectors/</guid>
+      <description>CSS Selectors Overview  Many different types of selectors that allow you to target rules to specific elements in an HTML document
+ Selectors are case sensitive, must match element names and attributes exactly
+     Selector Meaning Example     Universal Selector Applies to all elements *{}   Type Selector Match elements names h1, h2, h3 {}   Class Selector Matches all elements with a class attribute value matching on specified after a period (.</description>
+    </item>
+    
+    <item>
+      <title>CSS Selectors Examples</title>
+      <link>/03-css-selectors/css-selectors-examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-css-selectors/css-selectors-examples/</guid>
+      <description>CSS Selectors Examples Class Selector JS Bin on jsbin.com
+ID Selector JS Bin on jsbin.com
+Child Selector JS Bin on jsbin.com
+Descendent Selector Descendant Selector Example on jsbin.com
+Adjacent Sibling Selector Adjacent Sibling Selector example on jsbin.com
+General Sibling Selector General Sibling Selector Example on jsbin.com
+Pseudo Class Selector JS Bin on jsbin.com
+Pseudo Element Selector JS Bin on jsbin.com</description>
+    </item>
+    
+  </channel>
+</rss>

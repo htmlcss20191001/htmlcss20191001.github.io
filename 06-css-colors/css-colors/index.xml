@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS Colors on Code in One Day: HTML &amp; CSS Crash Course</title>
+    <link>/06-css-colors/css-colors/</link>
+    <description>Recent content in CSS Colors on Code in One Day: HTML &amp; CSS Crash Course</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/06-css-colors/css-colors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Color Names</title>
+      <link>/06-css-colors/css-colors/color-names/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-css-colors/css-colors/color-names/</guid>
+      <description> Color Names  colors represented by predefined names 147 color names this approach is limited
+h1 { color: green; }   </description>
+    </item>
+    
+    <item>
+      <title>Hex codes</title>
+      <link>/06-css-colors/css-colors/hex-codes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-css-colors/css-colors/hex-codes/</guid>
+      <description> Hex Codes  colors represented by values for red, green and blue in hexadecimal code
+h1 { color: #66cdaa; }   </description>
+    </item>
+    
+    <item>
+      <title>RGB</title>
+      <link>/06-css-colors/css-colors/rgb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-css-colors/css-colors/rgb/</guid>
+      <description> RGB  colors represented by values for red, green and blue expressed as numbers between 0 and 255
+h1 { color: rgb(102, 205, 170); }   </description>
+    </item>
+    
+    <item>
+      <title>RGBa</title>
+      <link>/06-css-colors/css-colors/rgba/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-css-colors/css-colors/rgba/</guid>
+      <description> RGBa  Leverages CSS3 inclusion of the opacity property Just like RGB but allows you to specify the opacity as the fourth value (alpha value) alpha must be a number between 0.0 and 1.0 (0.5 means 50% opacity)
+h1 { color: rgba(102, 205, 170, 0.25); }   </description>
+    </item>
+    
+    <item>
+      <title>HSL</title>
+      <link>/06-css-colors/css-colors/hsl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-css-colors/css-colors/hsl/</guid>
+      <description> HSL  Introduced with CSS3
+ Provides an alternative way to express colors based on:
+ Hue (expressed as an angle between 0 and 360 degrees)
+ Saturation (expressed as a percentage)
+ Lightness (expressed as a percentage 0% =&amp;gt; white, 50% =&amp;gt; normal &amp;amp; 100% =&amp;gt; black)
+body { background-color: hsl(0, 0%, 78%); }    </description>
+    </item>
+    
+    <item>
+      <title>HSLa</title>
+      <link>/06-css-colors/css-colors/hsla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-css-colors/css-colors/hsla/</guid>
+      <description> HSLa  Just like HSL but adds the ability to specify opacity using an alpha value
+ alpha must be a number between 0.0 and 1.0 (0.5 means 50% opacity)
+body { background-color: hsla(0, 100%, 75%, 0.5); }   </description>
+    </item>
+    
+  </channel>
+</rss>

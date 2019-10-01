@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Course Introduction &amp; Tools on Code in One Day: HTML &amp; CSS Crash Course</title>
+    <link>/00-course-intro-and-tools/</link>
+    <description>Recent content in Course Introduction &amp; Tools on Code in One Day: HTML &amp; CSS Crash Course</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
+    
+	<atom:link href="/00-course-intro-and-tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Objectives</title>
+      <link>/00-course-intro-and-tools/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/00-course-intro-and-tools/objectives/</guid>
+      <description> Understand how web pages are structured
+ Introduce some of the most frequently used html tags
+  </description>
+    </item>
+    
+    <item>
+      <title>What Is front-end Development?</title>
+      <link>/00-course-intro-and-tools/what-is-frontend-development/</link>
+      <pubDate>Sat, 16 Mar 2019 19:57:51 -0400</pubDate>
+      
+      <guid>/00-course-intro-and-tools/what-is-frontend-development/</guid>
+      <description>Overview  Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly.  What are the primary technologies associated with front-end development?  HTML
+ CSS
+ Javascript
+  How is front-end development differ from back-end development?  Backend development, is also known as server-side development and involves storing data on behalf of users or customers</description>
+    </item>
+    
+    <item>
+      <title>Course Tools</title>
+      <link>/00-course-intro-and-tools/tools/</link>
+      <pubDate>Sat, 16 Mar 2019 10:03:50 -0400</pubDate>
+      
+      <guid>/00-course-intro-and-tools/tools/</guid>
+      <description>Text Editor:
+ Why?: Text editor is a program that developers use to create and edit a range of programming language files. We&amp;rsquo;ll be using Atom, because it&amp;rsquo;s open source (free) and really good.
+ Download Atom
+  Browser:
+ Why?: Google chrome is a robust browser with a variety of tools that are helpful to developers.
+ Install Google Chrome
+  Github:
+ Why?: Github (and Git) are tools/applications used to by developers to manage their code and work collaboratively with each other.</description>
+    </item>
+    
+    <item>
+      <title>Keys to Success</title>
+      <link>/00-course-intro-and-tools/keys-to-success/</link>
+      <pubDate>Sat, 16 Mar 2019 17:11:17 -0400</pubDate>
+      
+      <guid>/00-course-intro-and-tools/keys-to-success/</guid>
+      <description>Practice, Practice, Practice: More you practice the concepts learned in class, the faster you&amp;rsquo;ll pick them up
+ Don&amp;rsquo;t try to memorize anything: You&amp;rsquo;ll memorize things naturally through the act of doing things over and over again. Besides, if you don&amp;rsquo;t remember something just look it up (i.e. google).
+ Work smarter not harder: In additional to looking things up, developers are really good at referencing past code that they&amp;rsquo;ve used in the past to solve problems they encounter in the present.</description>
+    </item>
+    
+  </channel>
+</rss>

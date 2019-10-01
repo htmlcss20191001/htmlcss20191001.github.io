@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag Overview on Code in One Day: HTML &amp; CSS Crash Course</title>
+    <link>/01-html-basics/tag-overview/</link>
+    <description>Recent content in Tag Overview on Code in One Day: HTML &amp; CSS Crash Course</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:05:18 -0500</lastBuildDate>
+    
+	<atom:link href="/01-html-basics/tag-overview/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Body, Head &amp; Title</title>
+      <link>/01-html-basics/tag-overview/body-head-title/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/body-head-title/</guid>
+      <description>&amp;lt;html&amp;gt;, &amp;lt;body&amp;gt;, &amp;lt;head&amp;gt;, &amp;lt;title&amp;gt; The following tags make up the structure of all web pages
+ &amp;lt;html&amp;gt;
+ Represents the root (top-level element) of an HTML document, so it is also referred to as the root element
+ All other elements must be descendants of this element.
+  &amp;lt;body&amp;gt;
+ Everything inside the body tag is shown inside the browser window  &amp;lt;head&amp;gt;
+ Contains information about the page (vs shown on the pages</description>
+    </item>
+    
+    <item>
+      <title>Text</title>
+      <link>/01-html-basics/tag-overview/text/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/text/</guid>
+      <description>HTML Headings  Six (6) levels of headings h1 tags is used for main headings h2 tags are used for subheadings Remaining level headings used as needed based on your content hierarchy  Browsers display headings differently, but relative sizes will always be consistent (by default) - i.e. h1 will always be bigger than h2
+ JS Bin on jsbin.com
+Paragraphs  Use &amp;lt;p&amp;gt; element to display paragraphs
+ By default, browser displays each paragraph on a new line</description>
+    </item>
+    
+    <item>
+      <title>Lists</title>
+      <link>/01-html-basics/tag-overview/lists/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/lists/</guid>
+      <description>Lists  3 different types of lists:
+ Unordered - lists start with a bullet point by default Ordered - numbered lists Definition - set of terms along with definition of those terms (not used often)  Both unordered and ordered lists contain list items
+ list items elements are the items within list, they use opening and closing tag
+ list item elements are indented by default
+ list items elements are always a child a list element (in this case the “unordered list” or ul element.</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>/01-html-basics/tag-overview/links/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/links/</guid>
+      <description> Links  Links created using the &amp;lt;a&amp;gt; tag
+ link tags use the href attribute (remember attributes come with a name and a value)
+ The value of the href attribute is the location where the link will direct you after it has been clicked
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;!-- contains information about the page --&amp;gt; &amp;lt;title&amp;gt;My page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;a href=&amp;quot;https://www.cnn.com&amp;quot;&amp;gt; CNN &amp;lt;/a&amp;gt; &amp;lt;a href=&amp;quot;/about_us.html&amp;quot;&amp;gt;About Us&amp;lt;/a&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   </description>
+    </item>
+    
+    <item>
+      <title>Images</title>
+      <link>/01-html-basics/tag-overview/images/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/images/</guid>
+      <description>Images  Images are placed in a &amp;lt;img&amp;gt;
+ Empty element meaning there is no closing tag
+ &amp;lt;img src=&amp;quot;images/team_hands&amp;quot; alt=&amp;quot;a group of people touching hands in a star formation&amp;quot; title=&amp;quot;teamwork is awesome&amp;quot;&amp;gt;   Image Attributes  src - Tells browser where to find the image (may relative or absolute path)
+ alt - Provides description of image for people who cannot see the image (accessibility)
+ title - Used to provide additional information about the image.</description>
+    </item>
+    
+    <item>
+      <title>Tables</title>
+      <link>/01-html-basics/tag-overview/tables/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/tables/</guid>
+      <description>Tables  Tables represent data in a grid format
+ Table Tags
+ &amp;lt;table&amp;gt;: element used to create a table
+ &amp;lt;tr&amp;gt;: table row
+ &amp;lt;td&amp;gt;: table data, represents a cell in the table
+ &amp;lt;th&amp;gt;: table headings used to respresent the header for a column or a row
+   Learn more about tables here
+ ---- Table examples  JS Bin on jsbin.com
+JS Bin on jsbin.</description>
+    </item>
+    
+    <item>
+      <title>Block &amp; Inline Elements</title>
+      <link>/01-html-basics/tag-overview/block-and-inline-elements/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/block-and-inline-elements/</guid>
+      <description>Block Elements  Block elements always appear on a new line in the browser window
+ &amp;lt;h1&amp;gt;, &amp;lt;p&amp;gt;, &amp;lt;ul&amp;gt;, and &amp;lt;li&amp;gt; are examples of block elements
+  JS Bin on jsbin.com
+Inline Elements  Inline elements will always appear to continue on the same line as their neighboring elements
+ &amp;lt;a&amp;gt;, &amp;lt;img&amp;gt;, &amp;lt;b&amp;gt;, and &amp;lt;em&amp;gt; are examples of inline elements
+  JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>Divs &amp; Spans</title>
+      <link>/01-html-basics/tag-overview/divs-spans/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/divs-spans/</guid>
+      <description>Divs  Divs allow you to group a set of elements together in one block-level box  JS Bin on jsbin.com
+ Divs are mainly used to break your content up into logical sections. By doing so, you have more control of the layout and appearance of your pages.  Spans  Spans are the inline equivalent to Divs
+ Spans are used to either:
+ contain a section of text where there is no other suitable element to differentiate it from its surrounding text</description>
+    </item>
+    
+    <item>
+      <title>Other Tags</title>
+      <link>/01-html-basics/tag-overview/other-tags/</link>
+      <pubDate>Thu, 14 Mar 2019 20:29:59 -0400</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/other-tags/</guid>
+      <description>Many more tags There are many other tags available to developers such as:
+ &amp;lt;b&amp;gt; Makes text bold&amp;lt;/b&amp;gt; &amp;lt;i&amp;gt; Italic text &amp;lt;/i&amp;gt; &amp;lt;br/&amp;gt; Used to break text within a paragraph &amp;lt;hr /&amp;gt; Used to add a horizontal line to visually break up text  JS Bin on jsbin.com
+MDN (Mozilla Developer Network) is an excellent resource for all things HTML, CSS and Javascript. For a complete list of all tags avaiable click here</description>
+    </item>
+    
+  </channel>
+</rss>

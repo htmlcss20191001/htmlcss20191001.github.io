@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS Box Model on Code in One Day: HTML &amp; CSS Crash Course</title>
+    <link>/05-css-box-model/</link>
+    <description>Recent content in CSS Box Model on Code in One Day: HTML &amp; CSS Crash Course</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:05:18 -0500</lastBuildDate>
+    
+	<atom:link href="/05-css-box-model/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Agenda</title>
+      <link>/05-css-box-model/agenda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-css-box-model/agenda/</guid>
+      <description> Discuss how CSS Cascades
+ Box Model
+ Code Along: Tags &amp;amp; Boxes
+ Code Along: Notifications
+  </description>
+    </item>
+    
+    <item>
+      <title>Block and Inline Elements</title>
+      <link>/05-css-box-model/block-inline-elements/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/05-css-box-model/block-inline-elements/</guid>
+      <description>Block Level Elements  Always appear on a new line or row
+ By default, block elements take up an entire row regardless of the width of their content
+ Example block elements: &amp;lt;p&amp;gt;, &amp;lt;h1&amp;gt;, &amp;lt;div&amp;gt;
+  JS Bin on jsbin.com
+Full list of block level elements can be found here
+ Inline Elements  Sit within a block level element and do not start on a new line</description>
+    </item>
+    
+    <item>
+      <title>Thinking in Boxes</title>
+      <link>/05-css-box-model/thinking-in-boxes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-css-box-model/thinking-in-boxes/</guid>
+      <description>Understanding the CSS Box Model is key to understanding how CSS works
+ Going forward, you should view every element as a box (because that&amp;rsquo;s how browsers view them)
+   Block elements in the image are outlined in red, while inline elements are outlined in green
+ Every element is a box, some boxes contain other boxes &amp;lt;body&amp;gt;, &amp;lt;div&amp;gt; or &amp;lt;article&amp;gt;
+ CSS allows you to create rules the control each individual box</description>
+    </item>
+    
+    <item>
+      <title>Code Along - Tags and Boxes</title>
+      <link>/05-css-box-model/code-along-tags-and-boxes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-css-box-model/code-along-tags-and-boxes/</guid>
+      <description> Code Along: Tags &amp;amp; Boxes  Using Atom, open the folder called tags_boxes in your lesson_06_files folder. You will be using these files as starting off point.
+ As a class, we&amp;rsquo;ll walk through seeing examples of the box model in action
+  </description>
+    </item>
+    
+    <item>
+      <title>Code Along - Notifications</title>
+      <link>/05-css-box-model/code-along-notifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-css-box-model/code-along-notifications/</guid>
+      <description> Code Along: Notifications  Using Atom, open the folder called notifications in your lesson_06_files folder. You will be using these files as starting off point.
+ As a class, we&amp;rsquo;ll see examples of using classes and ids to style notifications that are often used to provide contextual information to users within an application
+  </description>
+    </item>
+    
+  </channel>
+</rss>

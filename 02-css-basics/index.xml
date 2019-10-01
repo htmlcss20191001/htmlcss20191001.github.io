@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS Basics on Code in One Day: HTML &amp; CSS Crash Course</title>
+    <link>/02-css-basics/</link>
+    <description>Recent content in CSS Basics on Code in One Day: HTML &amp; CSS Crash Course</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/02-css-basics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Intro to CSS</title>
+      <link>/02-css-basics/css-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-css-basics/css-intro/</guid>
+      <description>What is CSS?  Stands for Cascading Style Sheet
+ Allows you to control design of page
+ With CSS allows you to create rules that specify how the content of an element should appear
+p { color: gray; }   Applying the CSS rule above will result in text color of all &amp;lt;p&amp;gt; tags being changed to gray.
+Anatomy of a CSS Rule  CSS works by associating rules with HTML elements.</description>
+    </item>
+    
+    <item>
+      <title>Adding CSS to your website</title>
+      <link>/02-css-basics/adding-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-css-basics/adding-css/</guid>
+      <description>There are three ways to add css to your site  1) Inline (avoid!)
+ 2) Internal css using &amp;lt;style&amp;gt; tag (avoid!)
+ 3) External file (best practice)
+  Inline CSS (avoid!)  This method involves adding styles directly to html elements using a style attribute
+ &amp;lt;body style=&amp;quot;background-color: orange;&amp;quot;&amp;gt; &amp;lt;!-- other tags redacted for example --&amp;gt; &amp;lt;/body&amp;gt;   Internal CSS (avoid!)  This method involves adding styles directly to html elements using a &amp;lt;style&amp;gt; tag</description>
+    </item>
+    
+    <item>
+      <title>Code Along - About Me</title>
+      <link>/02-css-basics/code-along/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-css-basics/code-along/</guid>
+      <description>Code Along: Building an &amp;ldquo;About Me&amp;rdquo; page  As a class, we&amp;rsquo;ll walk through using html and css to build the &amp;ldquo;About Me&amp;rdquo; page depicted in the image below   Using Atom, open the folder called rocket_raccoon_about_me in your lesson_04_files folder. You will be using these files as starting off point.
+ When building websites it is a best practice to have a plan in place before starting out.</description>
+    </item>
+    
+    <item>
+      <title>Lab - Portfolio page</title>
+      <link>/02-css-basics/lab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-css-basics/lab/</guid>
+      <description>Lab: Start/Complete Portfolio Page  Individually or in teams to finish the fictional developer&amp;rsquo;s site by building out their portfolio page (depicted in the image below)
+ You will be adding a Portfolio page to your existing rocket_raccoon_about_me project
+ Timebox: 35 mins
+ Before you start building: Draw a wireframe of the layout to help you plan your approach
+ The &amp;ldquo;About Me&amp;rdquo; and &amp;ldquo;Porfolio&amp;rdquo; pages should be linked using a relative url</description>
+    </item>
+    
+  </channel>
+</rss>

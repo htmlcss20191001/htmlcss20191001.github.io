@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS Box Model on Code in One Day: HTML &amp; CSS Crash Course</title>
+    <link>/05-css-box-model/box-model-overview/</link>
+    <description>Recent content in CSS Box Model on Code in One Day: HTML &amp; CSS Crash Course</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/05-css-box-model/box-model-overview/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Margin</title>
+      <link>/05-css-box-model/box-model-overview/margin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-css-box-model/box-model-overview/margin/</guid>
+      <description>Margin  Margin represents the space between boxes  .thing { /* margin can be applied to individual sides of a box using margin-top, margin-bottom, margin-left or margin-right */ /* style below applies 20px to left side of box */ margin-left: 20px; } .other-thing { /* style below applies 10px to all four sides of box */ margin: 10px; } .gizmo { /* when 4 values are provided, then values are applied in a clockwork manner: margin: [top] [right] [bottom] [left]; */ /* style below applies 4px to top, 10px to right, 6px to bottom &amp;amp; 10px to left */ margin: 4px 10px 6px 10px; } .</description>
+    </item>
+    
+    <item>
+      <title>Padding</title>
+      <link>/05-css-box-model/box-model-overview/padding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-css-box-model/box-model-overview/padding/</guid>
+      <description>Padding  Padding is the space between the border of a box and any content contained within it
+ Adding padding helps to increase readability of a box’s content
+  .thing { /* padding can be applied to individual sides of a box using padding-top, padding-bottom, padding-left or padding-right */ /* style below applies 20px to left side of box */ padding-left: 20px; } .other-thing { /* style below applies 10px to all four sides of box */ padding: 10px; } .</description>
+    </item>
+    
+    <item>
+      <title>Border</title>
+      <link>/05-css-box-model/box-model-overview/border/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-css-box-model/box-model-overview/border/</guid>
+      <description>Border  Every box has a border, and by default it is invisible (0 pixels wide)
+ Borders separates the edge of one box from another
+ Border is expressed in three parts
+ Border width: how thick the border will be
+ Border style: solid, dashed, etc
+ Border color: color of the border
+   /* border is most usually expressed using shorthand which allows you to specify a combination of the border 3 properties when using shorthand for border the order of the values does not matter */ /* style */ border: solid; /* width | style */ border: 2px dotted; /* style | color */ border: outset #f33; /* width | style | color */ border: medium dashed green; /* Border can be applied to individual sides of a box using border-top, border-bottom, border-left or border-right */ border-top: solid 1px blue; /* Also you can specify the border properties individually (this approach is not widely used) */ border-color: red; border-style: solid; border-width: 1px; border-top-color: blue; border-bottom-width: 3px; JS Bin on jsbin.</description>
+    </item>
+    
+  </channel>
+</rss>

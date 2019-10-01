@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/00-course-intro-and-tools/objectives/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/00-course-intro-and-tools/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/05-css-box-model/agenda/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-css-box-model/box-model-overview/margin/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/html-structure/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/04-css-cascading-guidelines/last-rule/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-css-box-model/box-model-overview/padding/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/html-tag-anatomy/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/05-css-box-model/block-inline-elements/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/html-attributes/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/05-css-box-model/box-model-overview/border/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-css-colors/css-colors/color-names/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/documentation/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-css-cascading-guidelines/specificity/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-css-selectors/agenda/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/tag-overview/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/04-css-cascading-guidelines/important/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-css-box-model/thinking-in-boxes/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-css-basics/css-intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-css-basics/adding-css/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-css-selectors/classes-and-ids/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-css-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-css-cascading-guidelines/inheritance/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/tag-overview/body-head-title/</loc>
+    <lastmod>2019-03-14T20:29:59-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/class-resources/keyboard-shortcuts/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/06-css-colors/css-colors/hex-codes/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-css-selectors/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/06-css-colors/css-colors/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-css-selectors/css-selectors/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-css-cascading-guidelines/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-css-selectors/css-selectors-examples/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-css-box-model/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/02-css-basics/code-along/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/code-along/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-css-basics/lab/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-css-box-model/box-model-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/lab/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-css-box-model/code-along-tags-and-boxes/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/atom-editor-settings/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-css-colors/css-colors/rgb/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-css-box-model/code-along-notifications/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-css-colors/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/tag-overview/text/</loc>
+    <lastmod>2019-03-14T20:29:59-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/06-css-colors/css-colors/rgba/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/atom-themes/</loc>
+  </url>
+  
+  <url>
+    <loc>/00-course-intro-and-tools/what-is-frontend-development/</loc>
+    <lastmod>2019-03-16T19:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/tag-overview/lists/</loc>
+    <lastmod>2019-03-14T20:29:59-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/06-css-colors/css-colors/hsl/</loc>
+  </url>
+  
+  <url>
+    <loc>/00-course-intro-and-tools/tools/</loc>
+    <lastmod>2019-03-16T10:03:50-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/06-css-colors/css-colors/hsla/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/tag-overview/links/</loc>
+    <lastmod>2019-03-14T20:29:59-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/tag-overview/images/</loc>
+    <lastmod>2019-03-14T20:29:59-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/00-course-intro-and-tools/keys-to-success/</loc>
+    <lastmod>2019-03-16T17:11:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/tag-overview/tables/</loc>
+    <lastmod>2019-03-14T20:29:59-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/tag-overview/block-and-inline-elements/</loc>
+    <lastmod>2019-03-14T20:29:59-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/tag-overview/divs-spans/</loc>
+    <lastmod>2019-03-14T20:29:59-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/tag-overview/other-tags/</loc>
+    <lastmod>2019-03-14T20:29:59-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/course-materials/</loc>
+    <lastmod>2019-03-17T13:44:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/class-resources/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-03-16T19:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
+  
+</urlset>
