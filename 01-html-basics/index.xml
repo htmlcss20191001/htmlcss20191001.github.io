@@ -55,23 +55,22 @@ Summary  Structure helps readers better understand all forms of documents
     
     <item>
       <title>Code Along - GA Press Release</title>
-      <link>/01-html-basics/code-along/</link>
+      <link>/01-html-basics/code-along-ga-press-release/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/01-html-basics/code-along/</guid>
+      <guid>/01-html-basics/code-along-ga-press-release/</guid>
       <description> Code Along: GA Press Release  As a class, we&amp;rsquo;ll walk through using html to build out an html version of a press release
- Using Sublime, open the folder called ga_press_release (found within the starter_code) folder
+ Using your text editor, open the folder called ga_press_release (found within the html_css_bootcamp) folder
   </description>
     </item>
     
     <item>
-      <title>Lab - Cookie Recipe</title>
-      <link>/01-html-basics/lab/</link>
+      <title>Code Along: Cookie Recipe</title>
+      <link>/01-html-basics/code-along-cookie-recipe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/01-html-basics/lab/</guid>
-      <description> Lab: Cookie Recipe  Work individually or in teams to create an html version of a Cookie recipe depicted in the images below
- Using Atom, open the folder called cookie_recipe in your lesson_01_files folder. You will be using these files as starting off point.
+      <guid>/01-html-basics/code-along-cookie-recipe/</guid>
+      <description> Code Along: Cookie Recipe  Using Atom, open the folder called cookie_recipe in your html_css_bootcamp folder. You will be using these files as starting off point.
  Tips
  Focus on the content first, then the image then the CSS There will be some items that you will need to look up, CSS is one of them (don&amp;rsquo;t worry we will be going over this in the next class, but part of being a developer is being able to google your way to solutions)   </description>
     </item>

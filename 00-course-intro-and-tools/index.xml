@@ -6,19 +6,34 @@
     <description>Recent content in Course Introduction &amp; Tools on Code in One Day: HTML &amp; CSS Crash Course</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 16 Mar 2019 19:57:51 -0400</lastBuildDate>
     
 	<atom:link href="/00-course-intro-and-tools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Objectives</title>
-      <link>/00-course-intro-and-tools/objectives/</link>
-      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      <title>Class Introductions</title>
+      <link>/00-course-intro-and-tools/class-introductions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/00-course-intro-and-tools/objectives/</guid>
-      <description> Understand how web pages are structured
- Introduce some of the most frequently used html tags
+      <guid>/00-course-intro-and-tools/class-introductions/</guid>
+      <description> QUESTIONS  Name
+ What do you do?
+ Why are you taking this class?
+ Fun fact?
+  </description>
+    </item>
+    
+    <item>
+      <title>Course Objectives</title>
+      <link>/00-course-intro-and-tools/course-objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/00-course-intro-and-tools/course-objectives/</guid>
+      <description> Gain an overview of how the internet works, the web development landscape, and the place of HTML and CSS in the web ecosystem
+ Use HTML and CSS to mark up common types of web pages
+ Build and deploy a basic website from scratch
+ Describe the various opportunities to continue learning web development
   </description>
     </item>
     
@@ -43,11 +58,10 @@
       <description>Text Editor:
  Why?: Text editor is a program that developers use to create and edit a range of programming language files. We&amp;rsquo;ll be using Atom, because it&amp;rsquo;s open source (free) and really good.
  Download Atom
-  Browser:
+    Browser:
  Why?: Google chrome is a robust browser with a variety of tools that are helpful to developers.
  Install Google Chrome
-  Github:
- Why?: Github (and Git) are tools/applications used to by developers to manage their code and work collaboratively with each other.</description>
+    Github:</description>
     </item>
     
     <item>

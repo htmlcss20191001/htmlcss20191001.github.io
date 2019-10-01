@@ -11,13 +11,22 @@
     
     
     <item>
+      <title>Agenda</title>
+      <link>/04-css-cascading-guidelines/agenda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-css-cascading-guidelines/agenda/</guid>
+      <description> Learn how CSS decides which rule takes precedent when conflicting rules exist  </description>
+    </item>
+    
+    <item>
       <title>Last Rule</title>
       <link>/04-css-cascading-guidelines/last-rule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/04-css-cascading-guidelines/last-rule/</guid>
-      <description>Last Rule  When two or more css rules have identical selectors, the latter of the two rules takes precedent
- // in css p { color: red; } p { color: green; }  &amp;lt;!-- in html --&amp;gt; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt; Color will be green&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   Here the &amp;lt;p&amp;gt; tag will be green because the last conflicting rule took precedent</description>
+      <description>Last Rule  When two or more css rules have identical selectors, the latter of the two rules takes precedent  // in css p { color: red; } p { color: green; } &amp;lt;!-- in html --&amp;gt; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt; Color will be green&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Here the &amp;lt;p&amp;gt; tag will be green because the last conflicting rule took precedent
+Live Example</description>
     </item>
     
     <item>
@@ -41,7 +50,7 @@ In the example above #featured is more specific than .box so the background-colo
       <guid>/04-css-cascading-guidelines/important/</guid>
       <description>!important  You can override all the above rules by adding a “!important” after any property
  This should be used sparingly; excessive use of !important can cause confusion within your codebase
-// in css #thing { color: green; } // add the !important option at the end of your declaration; p { color: red !important; }  &amp;lt;!-- in html --&amp;gt; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p id=&amp;quot;thing&amp;quot;&amp;gt;Will be RED and NOT Green&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   Here we used the !</description>
+  // in css #thing { color: green; } // add the !important option at the end of your declaration; p { color: red !important; } &amp;lt;!-- in html --&amp;gt; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p id=&amp;#34;thing&amp;#34;&amp;gt;Will be RED and NOT Green&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Here we used the !</description>
     </item>
     
     <item>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>FEWD on Code in One Day: HTML &amp; CSS Crash Course</title>
+    <title>HTML &amp; CSS Crash Course on Code in One Day: HTML &amp; CSS Crash Course</title>
     <link>/</link>
-    <description>Recent content in FEWD on Code in One Day: HTML &amp; CSS Crash Course</description>
+    <description>Recent content in HTML &amp; CSS Crash Course on Code in One Day: HTML &amp; CSS Crash Course</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Mar 2019 19:57:51 -0400</lastBuildDate>
@@ -12,14 +12,12 @@
     
     
     <item>
-      <title>Objectives</title>
-      <link>/00-course-intro-and-tools/objectives/</link>
-      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      <title>Agenda</title>
+      <link>/04-css-cascading-guidelines/agenda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/00-course-intro-and-tools/objectives/</guid>
-      <description> Understand how web pages are structured
- Introduce some of the most frequently used html tags
-  </description>
+      <guid>/04-css-cascading-guidelines/agenda/</guid>
+      <description> Learn how CSS decides which rule takes precedent when conflicting rules exist  </description>
     </item>
     
     <item>
@@ -28,10 +26,23 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/05-css-box-model/agenda/</guid>
-      <description> Discuss how CSS Cascades
- Box Model
+      <description> Understand the difference between block and inline elements
+ Discuss the CSS Box Model
  Code Along: Tags &amp;amp; Boxes
  Code Along: Notifications
+  </description>
+    </item>
+    
+    <item>
+      <title>Class Introductions</title>
+      <link>/00-course-intro-and-tools/class-introductions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/00-course-intro-and-tools/class-introductions/</guid>
+      <description> QUESTIONS  Name
+ What do you do?
+ Why are you taking this class?
+ Fun fact?
   </description>
     </item>
     
@@ -62,13 +73,26 @@ Summary  Structure helps readers better understand all forms of documents
     </item>
     
     <item>
+      <title>Course Objectives</title>
+      <link>/00-course-intro-and-tools/course-objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/00-course-intro-and-tools/course-objectives/</guid>
+      <description> Gain an overview of how the internet works, the web development landscape, and the place of HTML and CSS in the web ecosystem
+ Use HTML and CSS to mark up common types of web pages
+ Build and deploy a basic website from scratch
+ Describe the various opportunities to continue learning web development
+  </description>
+    </item>
+    
+    <item>
       <title>Last Rule</title>
       <link>/04-css-cascading-guidelines/last-rule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/04-css-cascading-guidelines/last-rule/</guid>
-      <description>Last Rule  When two or more css rules have identical selectors, the latter of the two rules takes precedent
- // in css p { color: red; } p { color: green; }  &amp;lt;!-- in html --&amp;gt; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt; Color will be green&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   Here the &amp;lt;p&amp;gt; tag will be green because the last conflicting rule took precedent</description>
+      <description>Last Rule  When two or more css rules have identical selectors, the latter of the two rules takes precedent  // in css p { color: red; } p { color: green; } &amp;lt;!-- in html --&amp;gt; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt; Color will be green&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Here the &amp;lt;p&amp;gt; tag will be green because the last conflicting rule took precedent
+Live Example</description>
     </item>
     
     <item>
@@ -80,6 +104,19 @@ Summary  Structure helps readers better understand all forms of documents
       <description>Padding  Padding is the space between the border of a box and any content contained within it
  Adding padding helps to increase readability of a box’s content
   .thing { /* padding can be applied to individual sides of a box using padding-top, padding-bottom, padding-left or padding-right */ /* style below applies 20px to left side of box */ padding-left: 20px; } .other-thing { /* style below applies 10px to all four sides of box */ padding: 10px; } .</description>
+    </item>
+    
+    <item>
+      <title>Thinking in Boxes</title>
+      <link>/05-css-box-model/thinking-in-boxes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-css-box-model/thinking-in-boxes/</guid>
+      <description>Understanding the CSS Box Model is key to understanding how CSS works
+ Going forward, you should view every element as a box (because that&amp;rsquo;s how browsers view them)
+   Block elements in the image are outlined in red, while inline elements are outlined in green
+ Every element is a box, some boxes contain other boxes &amp;lt;body&amp;gt;, &amp;lt;div&amp;gt; or &amp;lt;article&amp;gt;
+ CSS allows you to create rules the control each individual box</description>
     </item>
     
     <item>
@@ -95,20 +132,6 @@ Summary  Structure helps readers better understand all forms of documents
     </item>
     
     <item>
-      <title>Block and Inline Elements</title>
-      <link>/05-css-box-model/block-inline-elements/</link>
-      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
-      
-      <guid>/05-css-box-model/block-inline-elements/</guid>
-      <description>Block Level Elements  Always appear on a new line or row
- By default, block elements take up an entire row regardless of the width of their content
- Example block elements: &amp;lt;p&amp;gt;, &amp;lt;h1&amp;gt;, &amp;lt;div&amp;gt;
-  JS Bin on jsbin.com
-Full list of block level elements can be found here
- Inline Elements  Sit within a block level element and do not start on a new line</description>
-    </item>
-    
-    <item>
       <title>HTML Attributes</title>
       <link>/01-html-basics/html-attributes/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
@@ -119,6 +142,20 @@ Full list of block level elements can be found here
  They have two parts: name, value
   Attribute Structure  Attribute Name
  Indicates what kind of extra information you are supplying to the browser about the content in the element characters within the brackets indicates the tags purpose  Attribute Value</description>
+    </item>
+    
+    <item>
+      <title>Block and Inline Elements</title>
+      <link>/05-css-box-model/block-inline-elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-css-box-model/block-inline-elements/</guid>
+      <description>Block Level Elements  Always appear on a new line or row
+ By default, block elements take up an entire row regardless of the width of their content
+ Example block elements: &amp;lt;p&amp;gt;, &amp;lt;h1&amp;gt;, &amp;lt;div&amp;gt;
+  JS Bin on jsbin.com
+Full list of block level elements can be found here
+ Inline Elements  Sit within a block level element and do not start on a new line</description>
     </item>
     
     <item>
@@ -195,20 +232,7 @@ In the example above #featured is more specific than .box so the background-colo
       <guid>/04-css-cascading-guidelines/important/</guid>
       <description>!important  You can override all the above rules by adding a “!important” after any property
  This should be used sparingly; excessive use of !important can cause confusion within your codebase
-// in css #thing { color: green; } // add the !important option at the end of your declaration; p { color: red !important; }  &amp;lt;!-- in html --&amp;gt; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p id=&amp;quot;thing&amp;quot;&amp;gt;Will be RED and NOT Green&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   Here we used the !</description>
-    </item>
-    
-    <item>
-      <title>Thinking in Boxes</title>
-      <link>/05-css-box-model/thinking-in-boxes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/05-css-box-model/thinking-in-boxes/</guid>
-      <description>Understanding the CSS Box Model is key to understanding how CSS works
- Going forward, you should view every element as a box (because that&amp;rsquo;s how browsers view them)
-   Block elements in the image are outlined in red, while inline elements are outlined in green
- Every element is a box, some boxes contain other boxes &amp;lt;body&amp;gt;, &amp;lt;div&amp;gt; or &amp;lt;article&amp;gt;
- CSS allows you to create rules the control each individual box</description>
+  // in css #thing { color: green; } // add the !important option at the end of your declaration; p { color: red !important; } &amp;lt;!-- in html --&amp;gt; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p id=&amp;#34;thing&amp;#34;&amp;gt;Will be RED and NOT Green&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Here we used the !</description>
     </item>
     
     <item>
@@ -220,7 +244,7 @@ In the example above #featured is more specific than .box so the background-colo
       <description>What is CSS?  Stands for Cascading Style Sheet
  Allows you to control design of page
  With CSS allows you to create rules that specify how the content of an element should appear
-p { color: gray; }   Applying the CSS rule above will result in text color of all &amp;lt;p&amp;gt; tags being changed to gray.
+  p { color: gray; } Applying the CSS rule above will result in text color of all &amp;lt;p&amp;gt; tags being changed to gray.
 Anatomy of a CSS Rule  CSS works by associating rules with HTML elements.</description>
     </item>
     
@@ -234,7 +258,7 @@ Anatomy of a CSS Rule  CSS works by associating rules with HTML elements.</descr
  2) Internal css using &amp;lt;style&amp;gt; tag (avoid!)
  3) External file (best practice)
   Inline CSS (avoid!)  This method involves adding styles directly to html elements using a style attribute
- &amp;lt;body style=&amp;quot;background-color: orange;&amp;quot;&amp;gt; &amp;lt;!-- other tags redacted for example --&amp;gt; &amp;lt;/body&amp;gt;   Internal CSS (avoid!)  This method involves adding styles directly to html elements using a &amp;lt;style&amp;gt; tag</description>
+ &amp;lt;body style=&amp;quot;background-color: orange;&amp;quot;&amp;gt; &amp;lt;!-- other tags redacted for example --&amp;gt; &amp;lt;/body&amp;gt;   Internal CSS (avoid!)  This method involves adding styles directly to html elements using a &amp;lt;style&amp;gt; tag  &amp;lt;!</description>
     </item>
     
     <item>
@@ -327,46 +351,32 @@ Pseudo Element Selector JS Bin on jsbin.com</description>
     
     <item>
       <title>Code Along - About Me</title>
-      <link>/02-css-basics/code-along/</link>
+      <link>/02-css-basics/code-along-about-me/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/02-css-basics/code-along/</guid>
-      <description>Code Along: Building an &amp;ldquo;About Me&amp;rdquo; page  As a class, we&amp;rsquo;ll walk through using html and css to build the &amp;ldquo;About Me&amp;rdquo; page depicted in the image below   Using Atom, open the folder called rocket_raccoon_about_me in your lesson_04_files folder. You will be using these files as starting off point.
+      <guid>/02-css-basics/code-along-about-me/</guid>
+      <description>Code Along: Building an &amp;ldquo;About Me&amp;rdquo; page  As a class, we&amp;rsquo;ll walk through using html and css to build the &amp;ldquo;About Me&amp;rdquo; page depicted in the image below   Using Atom, open the folder called rocket_raccoon_about_me in your html_css_bootcamp folder. You will be using these files as starting off point.
  When building websites it is a best practice to have a plan in place before starting out.</description>
     </item>
     
     <item>
       <title>Code Along - GA Press Release</title>
-      <link>/01-html-basics/code-along/</link>
+      <link>/01-html-basics/code-along-ga-press-release/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/01-html-basics/code-along/</guid>
+      <guid>/01-html-basics/code-along-ga-press-release/</guid>
       <description> Code Along: GA Press Release  As a class, we&amp;rsquo;ll walk through using html to build out an html version of a press release
- Using Sublime, open the folder called ga_press_release (found within the starter_code) folder
+ Using your text editor, open the folder called ga_press_release (found within the html_css_bootcamp) folder
   </description>
     </item>
     
     <item>
-      <title>Lab - Portfolio page</title>
-      <link>/02-css-basics/lab/</link>
+      <title>Code Along: Cookie Recipe</title>
+      <link>/01-html-basics/code-along-cookie-recipe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/02-css-basics/lab/</guid>
-      <description>Lab: Start/Complete Portfolio Page  Individually or in teams to finish the fictional developer&amp;rsquo;s site by building out their portfolio page (depicted in the image below)
- You will be adding a Portfolio page to your existing rocket_raccoon_about_me project
- Timebox: 35 mins
- Before you start building: Draw a wireframe of the layout to help you plan your approach
- The &amp;ldquo;About Me&amp;rdquo; and &amp;ldquo;Porfolio&amp;rdquo; pages should be linked using a relative url</description>
-    </item>
-    
-    <item>
-      <title>Lab - Cookie Recipe</title>
-      <link>/01-html-basics/lab/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/01-html-basics/lab/</guid>
-      <description> Lab: Cookie Recipe  Work individually or in teams to create an html version of a Cookie recipe depicted in the images below
- Using Atom, open the folder called cookie_recipe in your lesson_01_files folder. You will be using these files as starting off point.
+      <guid>/01-html-basics/code-along-cookie-recipe/</guid>
+      <description> Code Along: Cookie Recipe  Using Atom, open the folder called cookie_recipe in your html_css_bootcamp folder. You will be using these files as starting off point.
  Tips
  Focus on the content first, then the image then the CSS There will be some items that you will need to look up, CSS is one of them (don&amp;rsquo;t worry we will be going over this in the next class, but part of being a developer is being able to google your way to solutions)   </description>
     </item>
@@ -377,7 +387,7 @@ Pseudo Element Selector JS Bin on jsbin.com</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/05-css-box-model/code-along-tags-and-boxes/</guid>
-      <description> Code Along: Tags &amp;amp; Boxes  Using Atom, open the folder called tags_boxes in your lesson_06_files folder. You will be using these files as starting off point.
+      <description> Code Along: Tags &amp;amp; Boxes  Using Atom, open the folder called tags_boxes in your html_css_bootcamp folder. You will be using these files as starting off point.
  As a class, we&amp;rsquo;ll walk through seeing examples of the box model in action
   </description>
     </item>
@@ -408,7 +418,7 @@ h1 { color: rgb(102, 205, 170); }   </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/05-css-box-model/code-along-notifications/</guid>
-      <description> Code Along: Notifications  Using Atom, open the folder called notifications in your lesson_06_files folder. You will be using these files as starting off point.
+      <description> Code Along: Notifications  Using Atom, open the folder called notifications in your html_css_bootcamp folder. You will be using these files as starting off point.
  As a class, we&amp;rsquo;ll see examples of using classes and ids to style notifications that are often used to provide contextual information to users within an application
   </description>
     </item>
@@ -493,11 +503,10 @@ body { background-color: hsl(0, 0%, 78%); }    </description>
       <description>Text Editor:
  Why?: Text editor is a program that developers use to create and edit a range of programming language files. We&amp;rsquo;ll be using Atom, because it&amp;rsquo;s open source (free) and really good.
  Download Atom
-  Browser:
+    Browser:
  Why?: Google chrome is a robust browser with a variety of tools that are helpful to developers.
  Install Google Chrome
-  Github:
- Why?: Github (and Git) are tools/applications used to by developers to manage their code and work collaboratively with each other.</description>
+    Github:</description>
     </item>
     
     <item>
@@ -520,7 +529,7 @@ body { background-color: hsla(0, 100%, 75%, 0.5); }   </description>
       <description> Links  Links created using the &amp;lt;a&amp;gt; tag
  link tags use the href attribute (remember attributes come with a name and a value)
  The value of the href attribute is the location where the link will direct you after it has been clicked
-&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;!-- contains information about the page --&amp;gt; &amp;lt;title&amp;gt;My page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;a href=&amp;quot;https://www.cnn.com&amp;quot;&amp;gt; CNN &amp;lt;/a&amp;gt; &amp;lt;a href=&amp;quot;/about_us.html&amp;quot;&amp;gt;About Us&amp;lt;/a&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   </description>
+  &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;!-- contains information about the page --&amp;gt; &amp;lt;title&amp;gt;My page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;a href=&amp;#34;https://www.cnn.com&amp;#34;&amp;gt; CNN &amp;lt;/a&amp;gt; &amp;lt;a href=&amp;#34;/about_us.html&amp;#34;&amp;gt;About Us&amp;lt;/a&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; </description>
     </item>
     
     <item>

@@ -3,17 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/00-course-intro-and-tools/objectives/</loc>
-    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+    <loc>/00-course-intro-and-tools/</loc>
+    <lastmod>2019-03-16T19:57:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/00-course-intro-and-tools/</loc>
-    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+    <loc>/04-css-cascading-guidelines/agenda/</loc>
   </url>
   
   <url>
     <loc>/05-css-box-model/agenda/</loc>
+  </url>
+  
+  <url>
+    <loc>/00-course-intro-and-tools/class-introductions/</loc>
   </url>
   
   <url>
@@ -31,6 +34,10 @@
   </url>
   
   <url>
+    <loc>/00-course-intro-and-tools/course-objectives/</loc>
+  </url>
+  
+  <url>
     <loc>/04-css-cascading-guidelines/last-rule/</loc>
   </url>
   
@@ -39,18 +46,21 @@
   </url>
   
   <url>
-    <loc>/01-html-basics/html-tag-anatomy/</loc>
-    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+    <loc>/05-css-box-model/thinking-in-boxes/</loc>
   </url>
   
   <url>
-    <loc>/05-css-box-model/block-inline-elements/</loc>
+    <loc>/01-html-basics/html-tag-anatomy/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>/01-html-basics/html-attributes/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/05-css-box-model/block-inline-elements/</loc>
   </url>
   
   <url>
@@ -81,10 +91,6 @@
   
   <url>
     <loc>/04-css-cascading-guidelines/important/</loc>
-  </url>
-  
-  <url>
-    <loc>/05-css-box-model/thinking-in-boxes/</loc>
   </url>
   
   <url>
@@ -143,28 +149,23 @@
   </url>
   
   <url>
+    <loc>/02-css-basics/code-along-about-me/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/code-along-ga-press-release/</loc>
+  </url>
+  
+  <url>
     <loc>/05-css-box-model/</loc>
-    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/02-css-basics/code-along/</loc>
-  </url>
-  
-  <url>
-    <loc>/01-html-basics/code-along/</loc>
-  </url>
-  
-  <url>
-    <loc>/02-css-basics/lab/</loc>
+    <loc>/01-html-basics/code-along-cookie-recipe/</loc>
   </url>
   
   <url>
     <loc>/05-css-box-model/box-model-overview/</loc>
-  </url>
-  
-  <url>
-    <loc>/01-html-basics/lab/</loc>
   </url>
   
   <url>
