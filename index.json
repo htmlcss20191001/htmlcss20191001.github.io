@@ -109,7 +109,7 @@
 	"title": "Color Names",
 	"tags": [],
 	"description": "",
-	"content": " Color Names  colors represented by predefined names 147 color names this approach is limited\nh1 { color: green; }   "
+	"content": " Color Names  colors represented by predefined names 147 color names this approach is limited  h1 { color: green; } Example JS Bin on jsbin.com\n"
 },
 {
 	"uri": "/class-resources/documentation/",
@@ -207,7 +207,7 @@
 	"title": "Hex codes",
 	"tags": [],
 	"description": "",
-	"content": " Hex Codes  colors represented by values for red, green and blue in hexadecimal code\nh1 { color: #66cdaa; }   "
+	"content": " Hex Codes  colors represented by values for red, green and blue in hexadecimal code  h1 { color: #0000ff; } Example JS Bin on jsbin.com\n"
 },
 {
 	"uri": "/03-css-selectors/",
@@ -298,7 +298,7 @@
 	"title": "RGB",
 	"tags": [],
 	"description": "",
-	"content": " RGB  colors represented by values for red, green and blue expressed as numbers between 0 and 255\nh1 { color: rgb(102, 205, 170); }   "
+	"content": " RGB  colors represented by values for red, green and blue expressed as numbers between 0 and 255  h1 { color: rgb(102, 205, 170); } Example JS Bin on jsbin.com\n"
 },
 {
 	"uri": "/05-css-box-model/code-along-notifications/",
@@ -333,7 +333,7 @@
 	"title": "RGBa",
 	"tags": [],
 	"description": "",
-	"content": " RGBa  Leverages CSS3 inclusion of the opacity property Just like RGB but allows you to specify the opacity as the fourth value (alpha value) alpha must be a number between 0.0 and 1.0 (0.5 means 50% opacity)\nh1 { color: rgba(102, 205, 170, 0.25); }   "
+	"content": " RGBa  Leverages CSS3 inclusion of the opacity property Just like RGB but allows you to specify the opacity as the fourth value (alpha value) alpha must be a number between 0.0 and 1.0 (0.5 means 50% opacity)  h1 { color: rgba(102, 205, 170, 0.25); } Example JS Bin on jsbin.com\n"
 },
 {
 	"uri": "/class-resources/atom-themes/",
@@ -361,7 +361,7 @@
 	"title": "HSL",
 	"tags": [],
 	"description": "",
-	"content": " HSL  Introduced with CSS3\n Provides an alternative way to express colors based on:\n Hue (expressed as an angle between 0 and 360 degrees)\n Saturation (expressed as a percentage)\n Lightness (expressed as a percentage 0% =\u0026gt; white, 50% =\u0026gt; normal \u0026amp; 100% =\u0026gt; black)\nbody { background-color: hsl(0, 0%, 78%); }    "
+	"content": " HSL  Introduced with CSS3\n Provides an alternative way to express colors based on:\n Hue (expressed as an angle between 0 and 360 degrees)\n Saturation (expressed as a percentage)\n Lightness (expressed as a percentage 0% =\u0026gt; white, 50% =\u0026gt; normal \u0026amp; 100% =\u0026gt; black)\n   body { background-color: hsl(0, 0%, 78%); } Example JS Bin on jsbin.com\n"
 },
 {
 	"uri": "/00-course-intro-and-tools/tools/",
@@ -375,7 +375,7 @@
 	"title": "HSLa",
 	"tags": [],
 	"description": "",
-	"content": " HSLa  Just like HSL but adds the ability to specify opacity using an alpha value\n alpha must be a number between 0.0 and 1.0 (0.5 means 50% opacity)\nbody { background-color: hsla(0, 100%, 75%, 0.5); }   "
+	"content": " HSLa  Just like HSL but adds the ability to specify opacity using an alpha value\n alpha must be a number between 0.0 and 1.0 (0.5 means 50% opacity)\n  body { background-color: hsla(0, 100%, 75%, 0.5); } Example JS Bin on jsbin.com\n"
 },
 {
 	"uri": "/01-html-basics/tag-overview/links/",
