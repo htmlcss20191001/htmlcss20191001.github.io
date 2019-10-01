@@ -132,6 +132,17 @@ Live Example</description>
     </item>
     
     <item>
+      <title>Agenda</title>
+      <link>/07-page-layout-flexbox/agenda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/agenda/</guid>
+      <description> Learn how to use basic functionality of Flexbox
+ Code Along: Layout Challenge - Simple Marketing Layout
+  </description>
+    </item>
+    
+    <item>
       <title>HTML Attributes</title>
       <link>/01-html-basics/html-attributes/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
@@ -142,6 +153,20 @@ Live Example</description>
  They have two parts: name, value
   Attribute Structure  Attribute Name
  Indicates what kind of extra information you are supplying to the browser about the content in the element characters within the brackets indicates the tags purpose  Attribute Value</description>
+    </item>
+    
+    <item>
+      <title>Flexbox Terminology</title>
+      <link>/07-page-layout-flexbox/flexbox/flexbox-terminology/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flexbox-terminology/</guid>
+      <description>Flex Container  The parent element in which flex items are contained
+ Defined using the flex or inline-flex values of the display property
+ flex: will make the flex-container a block-level element
+ inline-flex: will make the flex-container an inline element
+   Flex Item  Children of a flex container  Main Axis  The axis along which the flex items follow each other
+ flex-direction property determines the main axis</description>
     </item>
     
     <item>
@@ -200,10 +225,10 @@ jQuery jQuery Documentation</description>
     
     <item>
       <title>Instructions</title>
-      <link>/07-project/instructions/</link>
+      <link>/08-project/instructions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/07-project/instructions/</guid>
+      <guid>/08-project/instructions/</guid>
       <description>Instructions  Build a Resume or About Me page
  Give your page a &amp;lt;title&amp;gt; tag inside of your Head element
  Use at least 10 elements in your Body
@@ -330,6 +355,17 @@ In the example, the p element will automatically inherit the font color property
     </item>
     
     <item>
+      <title>Display</title>
+      <link>/07-page-layout-flexbox/flexbox/flex-container-properties/display/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flex-container-properties/display/</guid>
+      <description> display  Defines a flex container
+ inline or block depending on the given value
+.container { display: flex; /* or inline-flex */ }   </description>
+    </item>
+    
+    <item>
       <title>Hex codes</title>
       <link>/06-css-colors/css-colors/hex-codes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -409,6 +445,17 @@ Pseudo Element Selector JS Bin on jsbin.com</description>
     </item>
     
     <item>
+      <title>Flex Direction</title>
+      <link>/07-page-layout-flexbox/flexbox/flex-container-properties/flex-direction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flex-container-properties/flex-direction/</guid>
+      <description>flex direction  Establishes the main-axis and defines the direction flex items are placed in the flex container
+ Determines whether the flex items are layed out as either horizontal rows or vertical columns
+.container { flex-direction: row | row-reverse | column | column-reverse; }   Example JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
       <title>Recommended Atom Editor Settings</title>
       <link>/class-resources/atom-editor-settings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -448,6 +495,30 @@ Pseudo Element Selector JS Bin on jsbin.com</description>
  JS Bin on jsbin.com
 Paragraphs  Use &amp;lt;p&amp;gt; element to display paragraphs
  By default, browser displays each paragraph on a new line</description>
+    </item>
+    
+    <item>
+      <title>Flex Wrap</title>
+      <link>/07-page-layout-flexbox/flexbox/flex-container-properties/flex-wrap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flex-container-properties/flex-wrap/</guid>
+      <description>flex-wrap allows developers to change that and allow the items to wrap as needed with this property  By default, flex items will all try to fit onto one line
+ .container { flex-wrap: nowrap | wrap | wrap-reverse; }  Live Example
+JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>Flexbox Tips</title>
+      <link>/07-page-layout-flexbox/flexbox/flexbox-tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flexbox-tips/</guid>
+      <description>Flexbox Tips  Use wireframes to plan out all of your flex containers
+ Identify which flex containers will have a row direction and which will have a column direction?
+ Identify where you will have nested flex containers (i.e. containers in containers)
+  Keep is simple, use divs for all of your flex containers
+ Technically any element can be used as a flex  Use classes to name your flex containers</description>
     </item>
     
     <item>
@@ -495,6 +566,17 @@ Paragraphs  Use &amp;lt;p&amp;gt; element to display paragraphs
     </item>
     
     <item>
+      <title>Code Along - Layout Challenge</title>
+      <link>/07-page-layout-flexbox/code-along/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/code-along/</guid>
+      <description> Code Along: Page Layout using Flexbox  Using Atom, open the folder called layout_challenge in your html_css_bootcamp folder. You will be using these files as starting off point.
+ As a class, we&amp;rsquo;ll use flexbox to create the following page layouts (depicted in the images below)
+  </description>
+    </item>
+    
+    <item>
       <title>HSL</title>
       <link>/06-css-colors/css-colors/hsl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -506,6 +588,17 @@ Paragraphs  Use &amp;lt;p&amp;gt; element to display paragraphs
  Saturation (expressed as a percentage)
  Lightness (expressed as a percentage 0% =&amp;gt; white, 50% =&amp;gt; normal &amp;amp; 100% =&amp;gt; black)
    body { background-color: hsl(0, 0%, 78%); } Example JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>Justify Content</title>
+      <link>/07-page-layout-flexbox/flexbox/flex-container-properties/justify-content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flex-container-properties/justify-content/</guid>
+      <description>justify-content  defines the alignment along the main axis
+ will distribute extra free space left after all the flex items have reached their maximum size
+.container { justify-content: flex-start | flex-end | center | space-between | space-around; }   Example JS Bin on jsbin.com</description>
     </item>
     
     <item>
@@ -521,6 +614,15 @@ Paragraphs  Use &amp;lt;p&amp;gt; element to display paragraphs
  Why?: Google chrome is a robust browser with a variety of tools that are helpful to developers.
  Install Google Chrome
     Github:</description>
+    </item>
+    
+    <item>
+      <title>Align Items</title>
+      <link>/07-page-layout-flexbox/flexbox/flex-container-properties/align-items/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flex-container-properties/align-items/</guid>
+      <description>Align Items  defines the default behaviour for how flex items are laid out along the cross axis on the current line  Example JS Bin on jsbin.com</description>
     </item>
     
     <item>
@@ -544,6 +646,30 @@ Paragraphs  Use &amp;lt;p&amp;gt; element to display paragraphs
  link tags use the href attribute (remember attributes come with a name and a value)
  The value of the href attribute is the location where the link will direct you after it has been clicked
   &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;!-- contains information about the page --&amp;gt; &amp;lt;title&amp;gt;My page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;a href=&amp;#34;https://www.cnn.com&amp;#34;&amp;gt; CNN &amp;lt;/a&amp;gt; &amp;lt;a href=&amp;#34;/about_us.html&amp;#34;&amp;gt;About Us&amp;lt;/a&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Align Content</title>
+      <link>/07-page-layout-flexbox/flexbox/flex-container-properties/align-content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flex-container-properties/align-content/</guid>
+      <description>Align Content  aligns a flex container&amp;rsquo;s lines within when there is extra space in the cross-axis
+ align-content only applies when there are mutiple lines of flex items
+.container { align-content: flex-start | flex-end | center | space-between | space-around | stretch; }   Live Example
+JS Bin on jsbin.com
+In the example above we are using align-content: center to align the 2 wrapped rows of flex-items along the center of the cross-axis</description>
+    </item>
+    
+    <item>
+      <title>Flex Property Exercise</title>
+      <link>/07-page-layout-flexbox/flexbox/flex-container-properties/flex-property-exercise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flex-container-properties/flex-property-exercise/</guid>
+      <description>Using the jsbin below, change the following properties and observe the result:
+JS Bin on jsbin.com
+Instructions 1. Change the value of flex-direction property of the .container selector to the each of the following and observe the result:  column row-reverse column-reverse  2. With the flex-direction set to row, change the value of justify-content property of the .container selector to the each of the following and observe the result:  flex-start flex-end center space-between space-around  3.</description>
     </item>
     
     <item>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flex Container Properties on Code in One Day: HTML &amp; CSS Crash Course</title>
+    <link>/07-page-layout-flexbox/flexbox/flex-container-properties/</link>
+    <description>Recent content in Flex Container Properties on Code in One Day: HTML &amp; CSS Crash Course</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/07-page-layout-flexbox/flexbox/flex-container-properties/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Display</title>
+      <link>/07-page-layout-flexbox/flexbox/flex-container-properties/display/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flex-container-properties/display/</guid>
+      <description> display  Defines a flex container
+ inline or block depending on the given value
+.container { display: flex; /* or inline-flex */ }   </description>
+    </item>
+    
+    <item>
+      <title>Flex Direction</title>
+      <link>/07-page-layout-flexbox/flexbox/flex-container-properties/flex-direction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flex-container-properties/flex-direction/</guid>
+      <description>flex direction  Establishes the main-axis and defines the direction flex items are placed in the flex container
+ Determines whether the flex items are layed out as either horizontal rows or vertical columns
+.container { flex-direction: row | row-reverse | column | column-reverse; }   Example JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>Flex Wrap</title>
+      <link>/07-page-layout-flexbox/flexbox/flex-container-properties/flex-wrap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flex-container-properties/flex-wrap/</guid>
+      <description>flex-wrap allows developers to change that and allow the items to wrap as needed with this property  By default, flex items will all try to fit onto one line
+ .container { flex-wrap: nowrap | wrap | wrap-reverse; }  Live Example
+JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>Justify Content</title>
+      <link>/07-page-layout-flexbox/flexbox/flex-container-properties/justify-content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flex-container-properties/justify-content/</guid>
+      <description>justify-content  defines the alignment along the main axis
+ will distribute extra free space left after all the flex items have reached their maximum size
+.container { justify-content: flex-start | flex-end | center | space-between | space-around; }   Example JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>Align Items</title>
+      <link>/07-page-layout-flexbox/flexbox/flex-container-properties/align-items/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flex-container-properties/align-items/</guid>
+      <description>Align Items  defines the default behaviour for how flex items are laid out along the cross axis on the current line  Example JS Bin on jsbin.com</description>
+    </item>
+    
+    <item>
+      <title>Align Content</title>
+      <link>/07-page-layout-flexbox/flexbox/flex-container-properties/align-content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flex-container-properties/align-content/</guid>
+      <description>Align Content  aligns a flex container&amp;rsquo;s lines within when there is extra space in the cross-axis
+ align-content only applies when there are mutiple lines of flex items
+.container { align-content: flex-start | flex-end | center | space-between | space-around | stretch; }   Live Example
+JS Bin on jsbin.com
+In the example above we are using align-content: center to align the 2 wrapped rows of flex-items along the center of the cross-axis</description>
+    </item>
+    
+    <item>
+      <title>Flex Property Exercise</title>
+      <link>/07-page-layout-flexbox/flexbox/flex-container-properties/flex-property-exercise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flex-container-properties/flex-property-exercise/</guid>
+      <description>Using the jsbin below, change the following properties and observe the result:
+JS Bin on jsbin.com
+Instructions 1. Change the value of flex-direction property of the .container selector to the each of the following and observe the result:  column row-reverse column-reverse  2. With the flex-direction set to row, change the value of justify-content property of the .container selector to the each of the following and observe the result:  flex-start flex-end center space-between space-around  3.</description>
+    </item>
+    
+  </channel>
+</rss>

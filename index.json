@@ -84,11 +84,25 @@
 	"content": " What is a Tag?  Tags act like containers, they tell the browser what type of information lies between (aka the content) the opening and closing tag\n Opening Tag\n comprised of character(s) surrounded by less than and equal than signs (brackets) characters within the brackets indicates the tags purpose  Closing Tag\n Same as opening tag except closing tag contains a forward slash which informs browser that element has ended   Terms “tags” and “elements” are often used interchangeably\n Example  \u0026lt;a href=\u0026quot;https://www.cnn.com\u0026quot;\u0026gt; CNN \u0026lt;/a\u0026gt;  "
 },
 {
+	"uri": "/07-page-layout-flexbox/agenda/",
+	"title": "Agenda",
+	"tags": [],
+	"description": "",
+	"content": " Learn how to use basic functionality of Flexbox\n Code Along: Layout Challenge - Simple Marketing Layout\n  "
+},
+{
 	"uri": "/01-html-basics/html-attributes/",
 	"title": "HTML Attributes",
 	"tags": [],
 	"description": "",
 	"content": " What is an HTML Attribute?  Attributes provide additional information about the contents of the an element.\n They are placed in the opening tag\n They have two parts: name, value\n  Attribute Structure  Attribute Name\n Indicates what kind of extra information you are supplying to the browser about the content in the element characters within the brackets indicates the tags purpose  Attribute Value\n Information or setting for the attribute Is placed in double or single quotes   Example of a HTML Attribute  \u0026lt;img src=\u0026quot;mdn-logo-sm.png\u0026quot; alt=\u0026quot;MDN\u0026quot;\u0026gt;  A complete list of all the available HTML attributes can be found here\n "
+},
+{
+	"uri": "/07-page-layout-flexbox/flexbox/flexbox-terminology/",
+	"title": "Flexbox Terminology",
+	"tags": [],
+	"description": "",
+	"content": " Flex Container  The parent element in which flex items are contained\n Defined using the flex or inline-flex values of the display property\n flex: will make the flex-container a block-level element\n inline-flex: will make the flex-container an inline element\n   Flex Item  Children of a flex container  Main Axis  The axis along which the flex items follow each other\n flex-direction property determines the main axis\n  Cross Axis  The axis perpendicular to the main axis  Main Axis and Cross Axis changes with Flex Direction  If the flex-direction is row or row-reverse then the main axis will be along the horizontal plane and the cross axis will be along the vertical plane\n If the flex-direction is column or column-reverse then the main axis will be along the vertical plane and the cross axis will be along the horizontal plane\n  "
 },
 {
 	"uri": "/05-css-box-model/block-inline-elements/",
@@ -119,7 +133,7 @@
 	"content": "  Referencing documentation is a core task for developers.\n Documentation communicates how something (in our case programming languages, software libraries) works.\n Good documentation reduces implementation time and increases predictability of our software programs.\n  We will be referring to the following list of the documentation resources frequently throughout the course:\nHTML MDN\u0026rsquo;s HTML Reference\nCSS MDN\u0026rsquo;s CSS Reference\nJavascript MDN\u0026rsquo;s Javascript Reference\njQuery jQuery Documentation\n"
 },
 {
-	"uri": "/07-project/instructions/",
+	"uri": "/08-project/instructions/",
 	"title": "Instructions",
 	"tags": [],
 	"description": "",
@@ -201,6 +215,20 @@
 	"tags": [],
 	"description": "",
 	"content": " General Window Management \u0026amp; Browser Shortcuts    Action Mac Windows     Open Chrome Developer Tools cmd+option + i F2 or ctrl + shift + i   Refresh page cmd + R ctrl + R   Switch between applications cmd + tab alt + tab   Switch between windows in the same application cmd + ~     Atom Shortcuts Files, Windows, Tabs Management    Command macOS Windows Linux Description     Open Settings Menu cmd+, ctrl+, ctrl+, Opens the Atom\u0026rsquo;s settings menu   Open File (Fuzzy) cmd+p or cmd+t ctrl+p or ctrl+t ctrl+p or ctrl+t Opens the Fuzzy Finder   Browse Open Files cmd+b ctrl+b ctrl+b Browse tabs within the window   Previous Tab alt+cmd+left ctrl+pageup ctrl+pageup Cycles left through open tabs (in the active pane)   Next Tab alt+cmd+right ctrl+pagedown ctrl+pagedown Cycles right through open tabs (in the active page)   Toggle Tree View cmd+\\ ctrl+\\ ctrl+\\ Toggles Atom\u0026rsquo;s file Tree View   Show Available Snippets alt+shift+s alt+shift+s alt+shift+s Shows the snippets available to Atom   Save cmd+s ctrl+s ctrl+s Saves the currently active file   Save As shift+cmd+s ctrl+shift+s ctrl+shift+s Saves the currently active file under a different name   Save All alt+cmd+s   Saves all changed files   Close Tab cmd+w ctrl+w ctrl+w Closes the currently active tab   Close Window shift+cmd+w ctrl+shift+w ctrl+shift+w Closes the currently active editor window   Split Window cmd+k up/down/left/right ctrl+k up/down/left/right ctrl+k up/down/left/right Split the currently active tab in one of the four directions   Focus Pane cmd+k cmd+up/down/left/right ctrl+k ctrl+up/down/left/right ctrl+k ctrl+up/down/left/right Move the focus to the pane in one of the four directions   Toggle full screen ctrl+cmd+f F11 F11 Toggle full screen window    Editing    Command macOS Windows Linux Description     Duplicate Lines shift+cmd+d ctrl+shift+d ctrl+shift+d Duplicates the line of the current cursor position and creates a new line under it with the same contents   Delete Line ctrl+shift+k ctrl+shift+k ctrl+shift+k Deletes the current line   Move Line Up ctrl+cmd+up ctrl+up ctrl+up Moves the contents of the current cursor position up one line. If there is a line above with content, the current lines content will swap with the one above it.   Move Line Down ctrl+cmd+down ctrl+down ctrl+down Moves the contents of the current cursor position down one line. If there is a line below with content, the line\u0026rsquo;s content will swap with the one below it.   Find/Replace cmd+f ctrl+f ctrl+f Opens up the Find/Replace panel   Find Next cmd+g F3 F3 Toggles forward through the results of the current buffer in the file while the Find/Replace panel is active   Find Previous shift+cmd+g shift+F3 shift+F3 Toggles backward through the results of the current buffer in the file while the Find/Replace panel is active   Find in Project shift+cmd+f ctrl+shift+f ctrl+shift+f Opens the Find in Project Panel   Go To Line ctrl+g ctrl+g ctrl+g Opens the Go To Line panel   Go To Matching Bracket ctrl+m ctrl+m ctrl+m The cursor goes to the matching top bracket that the cursor is ecapsulated in   Select Line cmd+l ctrl+l ctrl+l Selects the entire line the cursor\u0026rsquo;s current position is in   Toggle Comment cmd+/ ctrl+/ ctrl+/ Toggles the selected text into a comment of the current grammar   Column Selection ctrl+shift+up/down ctrl+alt+up/down shift+alt+up/down Allows to select multiple rows, where the same edit will be applied   Select Same Words cmd+d ctrl+d ctrl+d If you select a word, and then hit the key combo for this command, Atom will select the next same word for you. Then you can either type directly (which will replace the old words) or use left or right arrow to append things.   Undo Selection cmd+u ctrl+u ctrl+u This undoes the previous selection, like from Select Same Words.   Select All The Same Words At Once cmd+ctrl+g alt+f3 alt+f3 This shortcut is similar to cmd+d/ctrl+d but it selects all the matching words at once.    "
+},
+{
+	"uri": "/07-page-layout-flexbox/flexbox/flex-container-properties/display/",
+	"title": "Display",
+	"tags": [],
+	"description": "",
+	"content": " display  Defines a flex container\n inline or block depending on the given value\n.container { display: flex; /* or inline-flex */ }   "
+},
+{
+	"uri": "/07-page-layout-flexbox/flexbox/flex-container-properties/",
+	"title": "Flex Container Properties",
+	"tags": [],
+	"description": "",
+	"content": " The upcoming (and awesome) gifs were graciously borrowed from this insightful blog post that covers flexbox\n Flex Container Properties  display\n flex-direction\n flex-wrap\n flex-flow shorthand\n justify-content\n align-items\n align-content\n  "
 },
 {
 	"uri": "/06-css-colors/css-colors/hex-codes/",
@@ -287,6 +315,13 @@
 	"content": " Code Along: Tags \u0026amp; Boxes  Using Atom, open the folder called tags_boxes in your html_css_bootcamp folder. You will be using these files as starting off point.\n As a class, we\u0026rsquo;ll walk through seeing examples of the box model in action\n  "
 },
 {
+	"uri": "/07-page-layout-flexbox/flexbox/flex-container-properties/flex-direction/",
+	"title": "Flex Direction",
+	"tags": [],
+	"description": "",
+	"content": " flex direction  Establishes the main-axis and defines the direction flex items are placed in the flex container\n Determines whether the flex items are layed out as either horizontal rows or vertical columns\n.container { flex-direction: row | row-reverse | column | column-reverse; }   Example JS Bin on jsbin.com\n"
+},
+{
 	"uri": "/class-resources/atom-editor-settings/",
 	"title": "Recommended Atom Editor Settings",
 	"tags": [],
@@ -315,6 +350,13 @@
 	"content": " Lesson 06 CSS Colors "
 },
 {
+	"uri": "/07-page-layout-flexbox/",
+	"title": "Page Layout with Flexbox",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 07 Page Layout with Flexbox "
+},
+{
 	"uri": "/01-html-basics/tag-overview/text/",
 	"title": "Text",
 	"tags": [],
@@ -322,7 +364,28 @@
 	"content": " HTML Headings  Six (6) levels of headings h1 tags is used for main headings h2 tags are used for subheadings Remaining level headings used as needed based on your content hierarchy  Browsers display headings differently, but relative sizes will always be consistent (by default) - i.e. h1 will always be bigger than h2\n JS Bin on jsbin.com\nParagraphs  Use \u0026lt;p\u0026gt; element to display paragraphs\n By default, browser displays each paragraph on a new line\n  JS Bin on jsbin.com\n"
 },
 {
-	"uri": "/07-project/",
+	"uri": "/07-page-layout-flexbox/flexbox/",
+	"title": "Flexbox",
+	"tags": [],
+	"description": "",
+	"content": " What is Flexbox?  New layout mode introduced with CSS3\n Allows developers to create flexible layouts without having to rely on floats or inline-block elements\n Is direction-agnostic as opposed to the regular layouts (block which is vertically-based and inline which is horizontally-based)\n Widely supported across all modern browsers\n  See the full list of layout modes here\n What problems does Flexbox solve?  Vertically centering a block of content inside its parent\n Making all the children of a container take up an equal amount of the available width/height, regardless of how much width/height is available\n Making all columns in a multiple column layout adopt the same height even if they contain a different amount of content\n  "
+},
+{
+	"uri": "/07-page-layout-flexbox/flexbox/flex-container-properties/flex-wrap/",
+	"title": "Flex Wrap",
+	"tags": [],
+	"description": "",
+	"content": " flex-wrap allows developers to change that and allow the items to wrap as needed with this property  By default, flex items will all try to fit onto one line\n .container { flex-wrap: nowrap | wrap | wrap-reverse; }  Live Example\nJS Bin on jsbin.com\n"
+},
+{
+	"uri": "/07-page-layout-flexbox/flexbox/flexbox-tips/",
+	"title": "Flexbox Tips",
+	"tags": [],
+	"description": "",
+	"content": " Flexbox Tips  Use wireframes to plan out all of your flex containers\n Identify which flex containers will have a row direction and which will have a column direction?\n Identify where you will have nested flex containers (i.e. containers in containers)\n  Keep is simple, use divs for all of your flex containers\n Technically any element can be used as a flex  Use classes to name your flex containers\n Use a consistent naming convention to identify your flexbox container classes\n For example, in this class we will have all flex container class names end with \u0026ldquo;-container\u0026rdquo; for example (.main-container) to easily help you distinguish between containers and other elements.\n  Use the \u0026ldquo;guideline\u0026rdquo; css style (provided at the top of your css files) to help you visually identify your containers\n Take small steps, constantly check the results of each change in your browser (i.e. do not add a bunch of styles and then only periodically check the results in the browser - this is a sure way to get lost)\n  "
+},
+{
+	"uri": "/08-project/",
 	"title": "Project",
 	"tags": [],
 	"description": "",
@@ -357,6 +420,13 @@
 	"content": " Lists  3 different types of lists:\n Unordered - lists start with a bullet point by default Ordered - numbered lists Definition - set of terms along with definition of those terms (not used often)  Both unordered and ordered lists contain list items\n list items elements are the items within list, they use opening and closing tag\n list item elements are indented by default\n list items elements are always a child a list element (in this case the “unordered list” or ul element.\n   Unordered List Example of an unordered list\nJS Bin on jsbin.com\nOrdered List Example of an ordered list\nJS Bin on jsbin.com\nDefinition List Example of a definition list\nJS Bin on jsbin.com\n"
 },
 {
+	"uri": "/07-page-layout-flexbox/code-along/",
+	"title": "Code Along - Layout Challenge",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Page Layout using Flexbox  Using Atom, open the folder called layout_challenge in your html_css_bootcamp folder. You will be using these files as starting off point.\n As a class, we\u0026rsquo;ll use flexbox to create the following page layouts (depicted in the images below)\n  "
+},
+{
 	"uri": "/06-css-colors/css-colors/hsl/",
 	"title": "HSL",
 	"tags": [],
@@ -364,11 +434,25 @@
 	"content": " HSL  Introduced with CSS3\n Provides an alternative way to express colors based on:\n Hue (expressed as an angle between 0 and 360 degrees)\n Saturation (expressed as a percentage)\n Lightness (expressed as a percentage 0% =\u0026gt; white, 50% =\u0026gt; normal \u0026amp; 100% =\u0026gt; black)\n   body { background-color: hsl(0, 0%, 78%); } Example JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/07-page-layout-flexbox/flexbox/flex-container-properties/justify-content/",
+	"title": "Justify Content",
+	"tags": [],
+	"description": "",
+	"content": " justify-content  defines the alignment along the main axis\n will distribute extra free space left after all the flex items have reached their maximum size\n.container { justify-content: flex-start | flex-end | center | space-between | space-around; }   Example JS Bin on jsbin.com\n"
+},
+{
 	"uri": "/00-course-intro-and-tools/tools/",
 	"title": "Course Tools",
 	"tags": [],
 	"description": "",
 	"content": " Text Editor:\n Why?: Text editor is a program that developers use to create and edit a range of programming language files. We\u0026rsquo;ll be using Atom, because it\u0026rsquo;s open source (free) and really good.\n Download Atom\n    Browser:\n Why?: Google chrome is a robust browser with a variety of tools that are helpful to developers.\n Install Google Chrome\n    Github:\n Why?: Github (and Git) are tools/applications used to by developers to manage their code and work collaboratively with each other. You\u0026rsquo;ll be using Github/Git to submit our homework assignments. kj\n Create a Github Account\n Download the Github Desktop App\n    Slack:\n Why?: Is a popular chat application that we\u0026rsquo;ll be using as our primary method of communication both during and outside of class\n Join the Coding Bootcamps GA slack workspace\n You should have received an emailed invitation to join GA’s slack team\n Don’t see an invitation in your inbox? Check your spam folder - many of Slack’s invitation emails tend to end up there. Let me know if you weren’t sent an invite and we’ll get you sorted out.\n  Add yourself to the dedicated Slack Channel for our class named #code-101 (see instructions on how to join a Slack Channel here)\n   "
+},
+{
+	"uri": "/07-page-layout-flexbox/flexbox/flex-container-properties/align-items/",
+	"title": "Align Items",
+	"tags": [],
+	"description": "",
+	"content": " Align Items  defines the default behaviour for how flex items are laid out along the cross axis on the current line  Example JS Bin on jsbin.com\n"
 },
 {
 	"uri": "/06-css-colors/css-colors/hsla/",
@@ -383,6 +467,20 @@
 	"tags": [],
 	"description": "",
 	"content": " Links  Links created using the \u0026lt;a\u0026gt; tag\n link tags use the href attribute (remember attributes come with a name and a value)\n The value of the href attribute is the location where the link will direct you after it has been clicked\n  \u0026lt;!DOCTYPE html\u0026gt; \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;!-- contains information about the page --\u0026gt; \u0026lt;title\u0026gt;My page\u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;a href=\u0026#34;https://www.cnn.com\u0026#34;\u0026gt; CNN \u0026lt;/a\u0026gt; \u0026lt;a href=\u0026#34;/about_us.html\u0026#34;\u0026gt;About Us\u0026lt;/a\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt; "
+},
+{
+	"uri": "/07-page-layout-flexbox/flexbox/flex-container-properties/align-content/",
+	"title": "Align Content",
+	"tags": [],
+	"description": "",
+	"content": " Align Content  aligns a flex container\u0026rsquo;s lines within when there is extra space in the cross-axis\n align-content only applies when there are mutiple lines of flex items\n.container { align-content: flex-start | flex-end | center | space-between | space-around | stretch; }   Live Example\nJS Bin on jsbin.com\nIn the example above we are using align-content: center to align the 2 wrapped rows of flex-items along the center of the cross-axis\n"
+},
+{
+	"uri": "/07-page-layout-flexbox/flexbox/flex-container-properties/flex-property-exercise/",
+	"title": "Flex Property Exercise",
+	"tags": [],
+	"description": "",
+	"content": " Using the jsbin below, change the following properties and observe the result:\nJS Bin on jsbin.com\nInstructions 1. Change the value of flex-direction property of the .container selector to the each of the following and observe the result:  column row-reverse column-reverse  2. With the flex-direction set to row, change the value of justify-content property of the .container selector to the each of the following and observe the result:  flex-start flex-end center space-between space-around  3. Follow all of the steps laid out in #2 above but this time set the flex-direction set to column and observe the changes 4. With the flex-direction set to row, change the value of align-items property of the .container selector to the each of the following and observe the result:  flex-start flex-end center stretch baseline  5. Follow all of the steps laid out in #5 above but this time set the flex-direction set to column and observe the changes 6. Spend 5 minutes changing both the values of flex-direction, justify-content and align-items and observe the result "
 },
 {
 	"uri": "/01-html-basics/tag-overview/images/",

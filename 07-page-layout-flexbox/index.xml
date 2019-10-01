@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Page Layout with Flexbox on Code in One Day: HTML &amp; CSS Crash Course</title>
+    <link>/07-page-layout-flexbox/</link>
+    <description>Recent content in Page Layout with Flexbox on Code in One Day: HTML &amp; CSS Crash Course</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
+    
+	<atom:link href="/07-page-layout-flexbox/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Agenda</title>
+      <link>/07-page-layout-flexbox/agenda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/agenda/</guid>
+      <description> Learn how to use basic functionality of Flexbox
+ Code Along: Layout Challenge - Simple Marketing Layout
+  </description>
+    </item>
+    
+    <item>
+      <title>Code Along - Layout Challenge</title>
+      <link>/07-page-layout-flexbox/code-along/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/code-along/</guid>
+      <description> Code Along: Page Layout using Flexbox  Using Atom, open the folder called layout_challenge in your html_css_bootcamp folder. You will be using these files as starting off point.
+ As a class, we&amp;rsquo;ll use flexbox to create the following page layouts (depicted in the images below)
+  </description>
+    </item>
+    
+  </channel>
+</rss>

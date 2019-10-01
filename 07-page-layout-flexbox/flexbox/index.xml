@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flexbox on Code in One Day: HTML &amp; CSS Crash Course</title>
+    <link>/07-page-layout-flexbox/flexbox/</link>
+    <description>Recent content in Flexbox on Code in One Day: HTML &amp; CSS Crash Course</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
+    
+	<atom:link href="/07-page-layout-flexbox/flexbox/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flexbox Terminology</title>
+      <link>/07-page-layout-flexbox/flexbox/flexbox-terminology/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flexbox-terminology/</guid>
+      <description>Flex Container  The parent element in which flex items are contained
+ Defined using the flex or inline-flex values of the display property
+ flex: will make the flex-container a block-level element
+ inline-flex: will make the flex-container an inline element
+   Flex Item  Children of a flex container  Main Axis  The axis along which the flex items follow each other
+ flex-direction property determines the main axis</description>
+    </item>
+    
+    <item>
+      <title>Flexbox Tips</title>
+      <link>/07-page-layout-flexbox/flexbox/flexbox-tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-page-layout-flexbox/flexbox/flexbox-tips/</guid>
+      <description>Flexbox Tips  Use wireframes to plan out all of your flex containers
+ Identify which flex containers will have a row direction and which will have a column direction?
+ Identify where you will have nested flex containers (i.e. containers in containers)
+  Keep is simple, use divs for all of your flex containers
+ Technically any element can be used as a flex  Use classes to name your flex containers</description>
+    </item>
+    
+  </channel>
+</rss>
