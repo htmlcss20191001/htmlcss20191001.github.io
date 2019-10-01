@@ -149,6 +149,10 @@
   </url>
   
   <url>
+    <loc>/learning-resources/resources/</loc>
+  </url>
+  
+  <url>
     <loc>/03-css-selectors/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
   </url>
@@ -334,6 +338,10 @@
   <url>
     <loc>/class-resources/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/learning-resources/</loc>
   </url>
   
   <url>

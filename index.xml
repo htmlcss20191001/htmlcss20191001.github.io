@@ -375,6 +375,24 @@ In the example, the p element will automatically inherit the font color property
     </item>
     
     <item>
+      <title>Resources</title>
+      <link>/learning-resources/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/learning-resources/resources/</guid>
+      <description> Resources HTML &amp;amp; CSS  Codecademy
+ Freecodecamp
+ Flexbox Froggy
+ CSS Diner
+  JavaScript  Codecademy
+ Freecodecamp
+ Intro to JavaScript | Udacity
+ Javascript Algorithms And Data Structures Certification - FreeCodeCamp
+ JavaScript 30 — Build 30 things with vanilla JS in 30 days with 30 tutorials
+  </description>
+    </item>
+    
+    <item>
       <title>CSS Selectors</title>
       <link>/03-css-selectors/css-selectors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

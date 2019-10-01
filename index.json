@@ -238,6 +238,13 @@
 	"content": " Hex Codes  colors represented by values for red, green and blue in hexadecimal code  h1 { color: #0000ff; } Example JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/learning-resources/resources/",
+	"title": "Resources",
+	"tags": [],
+	"description": "",
+	"content": " Resources HTML \u0026amp; CSS  Codecademy\n Freecodecamp\n Flexbox Froggy\n CSS Diner\n  JavaScript  Codecademy\n Freecodecamp\n Intro to JavaScript | Udacity\n Javascript Algorithms And Data Structures Certification - FreeCodeCamp\n JavaScript 30 — Build 30 things with vanilla JS in 30 days with 30 tutorials\n  "
+},
+{
 	"uri": "/03-css-selectors/",
 	"title": "CSS Selectors",
 	"tags": [],
@@ -537,6 +544,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Class Resources "
+},
+{
+	"uri": "/learning-resources/",
+	"title": "Learning Resources",
+	"tags": [],
+	"description": "",
+	"content": " Learning Resources "
 },
 {
 	"uri": "/",
