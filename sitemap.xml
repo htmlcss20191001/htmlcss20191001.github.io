@@ -76,6 +76,10 @@
   </url>
   
   <url>
+    <loc>/07-project/instructions/</loc>
+  </url>
+  
+  <url>
     <loc>/04-css-cascading-guidelines/specificity/</loc>
   </url>
   
@@ -191,6 +195,10 @@
   <url>
     <loc>/01-html-basics/tag-overview/text/</loc>
     <lastmod>2019-03-14T20:29:59-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/07-project/</loc>
   </url>
   
   <url>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on Code in One Day: HTML &amp; CSS Crash Course</title>
+    <link>/07-project/</link>
+    <description>Recent content in Project on Code in One Day: HTML &amp; CSS Crash Course</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/07-project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Instructions</title>
+      <link>/07-project/instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project/instructions/</guid>
+      <description>Instructions  Build a Resume or About Me page
+ Give your page a &amp;lt;title&amp;gt; tag inside of your Head element
+ Use at least 10 elements in your Body
+ Suggested Elements
+ &amp;lt;h1&amp;gt; What is the biggest header on your page
+ &amp;lt;h2&amp;gt; Subheadings
+ &amp;lt;p&amp;gt; Tell us about yourself
+ &amp;lt;ul&amp;gt; or  List your experiences
+ &amp;lt;img&amp;gt; if you want!
+ Style these elements using CSS classes and ID’s</description>
+    </item>
+    
+  </channel>
+</rss>

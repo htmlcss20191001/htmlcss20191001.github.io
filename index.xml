@@ -200,6 +200,24 @@ jQuery jQuery Documentation</description>
     </item>
     
     <item>
+      <title>Instructions</title>
+      <link>/07-project/instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project/instructions/</guid>
+      <description>Instructions  Build a Resume or About Me page
+ Give your page a &amp;lt;title&amp;gt; tag inside of your Head element
+ Use at least 10 elements in your Body
+ Suggested Elements
+ &amp;lt;h1&amp;gt; What is the biggest header on your page
+ &amp;lt;h2&amp;gt; Subheadings
+ &amp;lt;p&amp;gt; Tell us about yourself
+ &amp;lt;ul&amp;gt; or  List your experiences
+ &amp;lt;img&amp;gt; if you want!
+ Style these elements using CSS classes and ID’s</description>
+    </item>
+    
+    <item>
       <title>Specificity</title>
       <link>/04-css-cascading-guidelines/specificity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -119,6 +119,13 @@
 	"content": "  Referencing documentation is a core task for developers.\n Documentation communicates how something (in our case programming languages, software libraries) works.\n Good documentation reduces implementation time and increases predictability of our software programs.\n  We will be referring to the following list of the documentation resources frequently throughout the course:\nHTML MDN\u0026rsquo;s HTML Reference\nCSS MDN\u0026rsquo;s CSS Reference\nJavascript MDN\u0026rsquo;s Javascript Reference\njQuery jQuery Documentation\n"
 },
 {
+	"uri": "/07-project/instructions/",
+	"title": "Instructions",
+	"tags": [],
+	"description": "",
+	"content": " Instructions  Build a Resume or About Me page\n Give your page a \u0026lt;title\u0026gt; tag inside of your Head element\n Use at least 10 elements in your Body\n Suggested Elements\n \u0026lt;h1\u0026gt; What is the biggest header on your page\n \u0026lt;h2\u0026gt; Subheadings\n \u0026lt;p\u0026gt; Tell us about yourself\n \u0026lt;ul\u0026gt; or  List your experiences\n \u0026lt;img\u0026gt; if you want!\n Style these elements using CSS classes and ID’s\n Add a unique layout using the box model\n  Inspiration Use the following website for inspiration: http://ga-wdi-exercises.github.io/belair_biography/\n This is just an example, your site does not need to look like this, add your own style!  "
+},
+{
 	"uri": "/04-css-cascading-guidelines/specificity/",
 	"title": "Specificity",
 	"tags": [],
@@ -313,6 +320,13 @@
 	"tags": [],
 	"description": "",
 	"content": " HTML Headings  Six (6) levels of headings h1 tags is used for main headings h2 tags are used for subheadings Remaining level headings used as needed based on your content hierarchy  Browsers display headings differently, but relative sizes will always be consistent (by default) - i.e. h1 will always be bigger than h2\n JS Bin on jsbin.com\nParagraphs  Use \u0026lt;p\u0026gt; element to display paragraphs\n By default, browser displays each paragraph on a new line\n  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/07-project/",
+	"title": "Project",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 07 Project "
 },
 {
 	"uri": "/06-css-colors/css-colors/rgba/",
